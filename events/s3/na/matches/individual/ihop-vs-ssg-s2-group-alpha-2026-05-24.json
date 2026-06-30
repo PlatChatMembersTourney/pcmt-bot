@@ -1,0 +1,760 @@
+{
+  "id": "ihop-vs-ssg-s2-group-alpha-2026-05-24",
+  "team1": "IHOP",
+  "team2": "SSG",
+  "team1Name": "I Hate Odin Party",
+  "team2Name": "Squirtle Squad Gaming",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-05-24T00:15:00Z",
+  "stage": "Group Alpha",
+  "veto": "IHOP bans Fracture, SSG bans Pearl, IHOP picks Ascent, SSG picks Haven, IHOP bans Breeze, SSG bans Lotus, Split remains",
+  "maps": [
+    {
+      "name": "Ascent",
+      "score1": 4,
+      "score2": 13
+    },
+    {
+      "name": "Haven",
+      "score1": 11,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "IHOP",
+      "teamName": "I Hate Odin Party",
+      "players": [
+        {
+          "Player": "pavel",
+          "R1.0": 1.33,
+          "ACS": 310,
+          "K": 42,
+          "D": 29,
+          "A": 11,
+          "PlusMinus": 13,
+          "KAST": 0.707,
+          "ADR": 196.4,
+          "HS%": 0.301,
+          "FK": 10,
+          "FD": 8,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "igneous",
+          "R1.0": 1.058,
+          "ACS": 250,
+          "K": 34,
+          "D": 33,
+          "A": 9,
+          "PlusMinus": 1,
+          "KAST": 0.781,
+          "ADR": 159.6,
+          "HS%": 0.106,
+          "FK": 2,
+          "FD": 3,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "ethan",
+          "R1.0": 0.862,
+          "ACS": 188,
+          "K": 26,
+          "D": 32,
+          "A": 15,
+          "PlusMinus": -6,
+          "KAST": 0.659,
+          "ADR": 117.3,
+          "HS%": 0.144,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "eve",
+          "R1.0": 0.797,
+          "ACS": 167,
+          "K": 26,
+          "D": 31,
+          "A": 8,
+          "PlusMinus": -5,
+          "KAST": 0.586,
+          "ADR": 107.7,
+          "HS%": 0.268,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "maple",
+          "R1.0": 0.373,
+          "ACS": 80,
+          "K": 6,
+          "D": 37,
+          "A": 18,
+          "PlusMinus": -31,
+          "KAST": 0.683,
+          "ADR": 61.4,
+          "HS%": 0.069,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        }
+      ]
+    },
+    {
+      "team": "SSG",
+      "teamName": "Squirtle Squad Gaming",
+      "players": [
+        {
+          "Player": "colt",
+          "R1.0": 1.631,
+          "ACS": 369,
+          "K": 54,
+          "D": 26,
+          "A": 7,
+          "PlusMinus": 28,
+          "KAST": 0.732,
+          "ADR": 233.1,
+          "HS%": 0.34,
+          "FK": 8,
+          "FD": 4,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "darshan",
+          "R1.0": 1.286,
+          "ACS": 248,
+          "K": 35,
+          "D": 28,
+          "A": 19,
+          "PlusMinus": 7,
+          "KAST": 0.829,
+          "ADR": 174.8,
+          "HS%": 0.24,
+          "FK": 8,
+          "FD": 4,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "aleks",
+          "R1.0": 1.175,
+          "ACS": 217,
+          "K": 33,
+          "D": 26,
+          "A": 6,
+          "PlusMinus": 7,
+          "KAST": 0.854,
+          "ADR": 150.0,
+          "HS%": 0.133,
+          "FK": 1,
+          "FD": 1,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "nameless",
+          "R1.0": 1.031,
+          "ACS": 156,
+          "K": 25,
+          "D": 24,
+          "A": 13,
+          "PlusMinus": 1,
+          "KAST": 0.756,
+          "ADR": 114.9,
+          "HS%": 0.318,
+          "FK": 2,
+          "FD": 5,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "cardamom",
+          "R1.0": 0.654,
+          "ACS": 107,
+          "K": 15,
+          "D": 30,
+          "A": 17,
+          "PlusMinus": -15,
+          "KAST": 0.658,
+          "ADR": 71.5,
+          "HS%": 0.246,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Ascent",
+      "score1": 4,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "IHOP",
+          "teamName": "I Hate Odin Party",
+          "players": [
+            {
+              "Player": "pavel",
+              "Agent": "Phoenix",
+              "R1.0": 1.107,
+              "ACS": 310,
+              "K": 16,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": 1,
+              "KAST": 0.647,
+              "ADR": 202.0,
+              "HS%": 0.293,
+              "FK": 6,
+              "FD": 2,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "igneous",
+              "Agent": "Sova",
+              "R1.0": 1.062,
+              "ACS": 287,
+              "K": 17,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": 1,
+              "KAST": 0.824,
+              "ADR": 174.9,
+              "HS%": 0.079,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "eve",
+              "Agent": "Waylay",
+              "R1.0": 0.503,
+              "ACS": 107,
+              "K": 7,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": -7,
+              "KAST": 0.471,
+              "ADR": 78.3,
+              "HS%": 0.208,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "ethan",
+              "Agent": "Omen",
+              "R1.0": 0.441,
+              "ACS": 101,
+              "K": 4,
+              "D": 14,
+              "A": 7,
+              "PlusMinus": -10,
+              "KAST": 0.471,
+              "ADR": 70.6,
+              "HS%": 0.1,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "maple",
+              "Agent": "Killjoy",
+              "R1.0": 0.259,
+              "ACS": 81,
+              "K": 3,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -13,
+              "KAST": 0.588,
+              "ADR": 63.8,
+              "HS%": 0.098,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "SSG",
+          "teamName": "Squirtle Squad Gaming",
+          "players": [
+            {
+              "Player": "colt",
+              "Agent": "Jett",
+              "R1.0": 1.994,
+              "ACS": 445,
+              "K": 27,
+              "D": 10,
+              "A": 4,
+              "PlusMinus": 17,
+              "KAST": 0.824,
+              "ADR": 285.5,
+              "HS%": 0.48,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "darshan",
+              "Agent": "Phoenix",
+              "R1.0": 1.658,
+              "ACS": 311,
+              "K": 18,
+              "D": 10,
+              "A": 11,
+              "PlusMinus": 8,
+              "KAST": 0.941,
+              "ADR": 214.9,
+              "HS%": 0.269,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "aleks",
+              "Agent": "Killjoy",
+              "R1.0": 1.321,
+              "ACS": 209,
+              "K": 14,
+              "D": 7,
+              "A": 1,
+              "PlusMinus": 7,
+              "KAST": 0.824,
+              "ADR": 138.8,
+              "HS%": 0.158,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "nameless",
+              "Agent": "Sova",
+              "R1.0": 0.949,
+              "ACS": 121,
+              "K": 8,
+              "D": 9,
+              "A": 5,
+              "PlusMinus": -1,
+              "KAST": 0.765,
+              "ADR": 94.0,
+              "HS%": 0.438,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "cardamom",
+              "Agent": "Omen",
+              "R1.0": 0.791,
+              "ACS": 126,
+              "K": 8,
+              "D": 11,
+              "A": 6,
+              "PlusMinus": -3,
+              "KAST": 0.765,
+              "ADR": 66.2,
+              "HS%": 0.19,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "IHOP",
+          "teamName": "I Hate Odin Party",
+          "players": [
+            {
+              "Player": "pavel",
+              "Agent": "Phoenix",
+              "R1.0": 1.488,
+              "ACS": 310,
+              "K": 26,
+              "D": 14,
+              "A": 8,
+              "PlusMinus": 12,
+              "KAST": 0.75,
+              "ADR": 192.5,
+              "HS%": 0.306,
+              "FK": 4,
+              "FD": 6,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "ethan",
+              "Agent": "Omen",
+              "R1.0": 1.16,
+              "ACS": 250,
+              "K": 22,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": 4,
+              "KAST": 0.792,
+              "ADR": 150.3,
+              "HS%": 0.176,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "igneous",
+              "Agent": "Sova",
+              "R1.0": 1.056,
+              "ACS": 224,
+              "K": 17,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": 0,
+              "KAST": 0.75,
+              "ADR": 148.8,
+              "HS%": 0.125,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "eve",
+              "Agent": "Waylay",
+              "R1.0": 1.006,
+              "ACS": 209,
+              "K": 19,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 2,
+              "KAST": 0.667,
+              "ADR": 128.5,
+              "HS%": 0.31,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "maple",
+              "Agent": "Vyse",
+              "R1.0": 0.454,
+              "ACS": 79,
+              "K": 3,
+              "D": 21,
+              "A": 16,
+              "PlusMinus": -18,
+              "KAST": 0.75,
+              "ADR": 59.7,
+              "HS%": 0.049,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "SSG",
+          "teamName": "Squirtle Squad Gaming",
+          "players": [
+            {
+              "Player": "colt",
+              "Agent": "Jett",
+              "R1.0": 1.374,
+              "ACS": 316,
+              "K": 27,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": 11,
+              "KAST": 0.667,
+              "ADR": 196.0,
+              "HS%": 0.24,
+              "FK": 7,
+              "FD": 1,
+              "PlusMinus2": 6
+            },
+            {
+              "Player": "nameless",
+              "Agent": "Sova",
+              "R1.0": 1.09,
+              "ACS": 180,
+              "K": 17,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": 2,
+              "KAST": 0.75,
+              "ADR": 129.7,
+              "HS%": 0.233,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "aleks",
+              "Agent": "Killjoy",
+              "R1.0": 1.072,
+              "ACS": 222,
+              "K": 19,
+              "D": 19,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.875,
+              "ADR": 158.0,
+              "HS%": 0.115,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "darshan",
+              "Agent": "Phoenix",
+              "R1.0": 1.023,
+              "ACS": 203,
+              "K": 17,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": -1,
+              "KAST": 0.75,
+              "ADR": 146.4,
+              "HS%": 0.22,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "cardamom",
+              "Agent": "Omen",
+              "R1.0": 0.557,
+              "ACS": 94,
+              "K": 7,
+              "D": 19,
+              "A": 11,
+              "PlusMinus": -12,
+              "KAST": 0.583,
+              "ADR": 75.3,
+              "HS%": 0.286,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=OQBjqH9ssWo"
+}

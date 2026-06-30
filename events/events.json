@@ -1,0 +1,181 @@
+[
+	{
+		"id": "s1-na",
+		"name": "NA Season 1",
+		"shortName": "NA S1",
+		"season": 1,
+		"region": "na",
+		"path": "s1/na",
+		"status": "completed",
+		"desc": "Season 1 of the Plat Chat members tournament for NA, where 4 teams held a mickey mouse event.",
+		"dates": "May 29 - Aug 10, 2025",
+		"stages": [
+			{
+				"name": "Playoffs",
+				"dates": "Jul 16 - Aug 10"
+			},
+			{
+				"name": "Group Stage",
+				"dates": "May 29 - Jul 6"
+			}
+		]
+	},
+	{
+		"id": "s2-na",
+		"name": "NA Season 2",
+		"shortName": "NA S2",
+		"season": 2,
+		"region": "na",
+		"path": "s2/na",
+		"status": "completed",
+		"desc": "Season 2 of the Plat Chat members tournament for NA, which took 12 teams approximately 500 years to finish.",
+		"dates": "Oct 10, 2025 - Apr 26, 2026",
+		"stages": [
+			{
+				"name": "Playoffs",
+				"dates": "Mar 20 - Apr 26"
+			},
+			{
+				"name": "LCQ",
+				"dates": "Feb 15 - Mar 9"
+			},
+			{
+				"name": "Group Stage",
+				"dates": "Oct 10 - Jan 30",
+				"format": {
+					"type": "round-robin",
+					"groups": 1,
+					"teamsPerGroup": 12,
+					"teamColors": [
+						{
+							"number": 2,
+							"color": "green"
+						},
+						{
+							"number": 4,
+							"color": "yellow"
+						},
+						{
+							"number": 6,
+							"color": "red"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "s1-emea",
+		"name": "EMEA Season 1",
+		"shortName": "EMEA S1",
+		"season": 1,
+		"region": "emea",
+		"path": "s1/emea",
+		"status": "completed",
+		"desc": "Season 1 of the Plat Chat members tournament for EMEA, where 4 teams held a mickey mouse event.",
+		"dates": "Mar 27 - May 30, 2026",
+		"stages": [
+			{
+				"name": "Playoffs",
+				"dates": "May 13 - 30"
+			},
+			{
+				"name": "Group Stage",
+				"dates": "Mar 27 - May 3",
+				"format": {
+					"type": "round-robin",
+					"groups": 1,
+					"teamsPerGroup": 4,
+					"teamColors": [
+						{
+							"number": 3,
+							"color": "green"
+						},
+						{
+							"number": 1,
+							"color": "red"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "s3-na",
+		"name": "NA Season 3",
+		"shortName": "NA S3",
+		"season": 3,
+		"region": "na",
+		"path": "s3/na",
+		"status": "ongoing",
+		"desc": "Season 3 of the Plat Chat members tournament for NA, where 16 teams had a 2-group slugfest.",
+		"dates": "May 14 - TBD",
+		"stages": [
+			{
+				"name": "Playoffs",
+				"dates": "TBD"
+			},
+			{
+				"name": "Group Stage",
+				"dates": "May 14 - TBD",
+				"format": {
+					"type": "round-robin",
+					"groups": 2,
+					"groupNames": ["Group Alpha", "Group Omega"],
+					"teamsPerGroup": 8,
+					"teamColors": [
+						{
+							"number": 4,
+							"color": "green"
+						},
+						{
+							"number": 4,
+							"color": "red"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"id": "s2-emea",
+		"name": "EMEA Season 2",
+		"shortName": "EMEA S2",
+		"season": 2,
+		"region": "emea",
+		"path": "s2/emea",
+		"status": "upcoming",
+		"desc": "Season 2 of the Plat Chat members tournament for EMEA, where 10 teams did some group activities.",
+		"dates": "TBD",
+		"stages": [
+			{
+				"name": "Playoffs",
+				"dates": "TBD"
+			},
+			{
+				"name": "Group Stage",
+				"dates": "TBD",
+				"format": {
+					"type": "round-robin",
+					"groups": 2,
+					"groupNames": ["Group Alpha", "Group Omega"],
+					"teamsPerGroup": 5,
+					"teamColors": [
+						{
+							"number": 1,
+							"color": "green"
+						},
+						{
+							"number": 2,
+							"color": "yellow"
+						},
+						{
+							"number": 2,
+							"color": "red"
+						}
+					]
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,735 @@
+{
+  "id": "wfc-vs-<3-s2-group-stage-2026-05-03",
+  "team1": "WFC",
+  "team2": "<3",
+  "team1Name": "Wetherspoons FC",
+  "team2Name": "Less Than Three",
+  "score1": 2,
+  "score2": 0,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-05-03T10:00:00Z",
+  "stage": "Group Stage",
+  "veto": "WFC bans Haven, <3 bans Fracture, WFC picks Breeze, <3 picks Lotus, WFC bans Pearl, <3 bans Ascent, Split remains",
+  "maps": [
+    {
+      "name": "Breeze",
+      "score1": 13,
+      "score2": 5
+    },
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 5
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "WFC",
+      "teamName": "Wetherspoons FC",
+      "players": [
+        {
+          "Player": "tonnoman",
+          "R1.0": 1.547,
+          "ACS": 318,
+          "K": 42,
+          "D": 23,
+          "A": 8,
+          "PlusMinus": 19,
+          "KAST": 0.805,
+          "ADR": 220.1,
+          "HS%": 0.3,
+          "FK": 5,
+          "FD": 1,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "mide",
+          "R1.0": 1.489,
+          "ACS": 281,
+          "K": 36,
+          "D": 20,
+          "A": 18,
+          "PlusMinus": 16,
+          "KAST": 0.888,
+          "ADR": 168.9,
+          "HS%": 0.135,
+          "FK": 7,
+          "FD": 2,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "King",
+          "R1.0": 1.413,
+          "ACS": 268,
+          "K": 37,
+          "D": 20,
+          "A": 10,
+          "PlusMinus": 17,
+          "KAST": 0.888,
+          "ADR": 152.6,
+          "HS%": 0.212,
+          "FK": 9,
+          "FD": 3,
+          "PlusMinus2": 6
+        },
+        {
+          "Player": "Charlotte",
+          "R1.0": 1.299,
+          "ACS": 216,
+          "K": 30,
+          "D": 19,
+          "A": 8,
+          "PlusMinus": 11,
+          "KAST": 0.834,
+          "ADR": 152.0,
+          "HS%": 0.221,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "Eva",
+          "R1.0": 1.105,
+          "ACS": 155,
+          "K": 21,
+          "D": 19,
+          "A": 16,
+          "PlusMinus": 2,
+          "KAST": 0.834,
+          "ADR": 108.9,
+          "HS%": 0.281,
+          "FK": 2,
+          "FD": 2,
+          "PlusMinus2": 0
+        }
+      ]
+    },
+    {
+      "team": "<3",
+      "teamName": "Less Than Three",
+      "players": [
+        {
+          "Player": "Yessi",
+          "R1.0": 0.992,
+          "ACS": 261,
+          "K": 33,
+          "D": 33,
+          "A": 8,
+          "PlusMinus": 0,
+          "KAST": 0.695,
+          "ADR": 163.2,
+          "HS%": 0.172,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "Ride",
+          "R1.0": 0.775,
+          "ACS": 213,
+          "K": 27,
+          "D": 33,
+          "A": 5,
+          "PlusMinus": -6,
+          "KAST": 0.666,
+          "ADR": 124.3,
+          "HS%": 0.229,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Ani",
+          "R1.0": 0.633,
+          "ACS": 162,
+          "K": 20,
+          "D": 32,
+          "A": 6,
+          "PlusMinus": -12,
+          "KAST": 0.555,
+          "ADR": 111.6,
+          "HS%": 0.231,
+          "FK": 2,
+          "FD": 6,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "Snowfall",
+          "R1.0": 0.337,
+          "ACS": 113,
+          "K": 11,
+          "D": 34,
+          "A": 6,
+          "PlusMinus": -23,
+          "KAST": 0.416,
+          "ADR": 84.7,
+          "HS%": 0.162,
+          "FK": 0,
+          "FD": 11,
+          "PlusMinus2": -11
+        },
+        {
+          "Player": "Otaka",
+          "R1.0": 0.324,
+          "ACS": 96,
+          "K": 10,
+          "D": 34,
+          "A": 8,
+          "PlusMinus": -24,
+          "KAST": 0.5,
+          "ADR": 70.1,
+          "HS%": 0.089,
+          "FK": 0,
+          "FD": 2,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Breeze",
+      "score1": 13,
+      "score2": 5,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "WFC",
+          "teamName": "Wetherspoons FC",
+          "players": [
+            {
+              "Player": "tonnoman",
+              "Agent": "Harbor",
+              "R1.0": 1.897,
+              "ACS": 391,
+              "K": 27,
+              "D": 11,
+              "A": 1,
+              "PlusMinus": 16,
+              "KAST": 0.944,
+              "ADR": 275.2,
+              "HS%": 0.38,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "King",
+              "Agent": "Neon",
+              "R1.0": 1.445,
+              "ACS": 264,
+              "K": 18,
+              "D": 9,
+              "A": 5,
+              "PlusMinus": 9,
+              "KAST": 0.833,
+              "ADR": 159.3,
+              "HS%": 0.136,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Charlotte",
+              "Agent": "Vyse",
+              "R1.0": 1.292,
+              "ACS": 188,
+              "K": 12,
+              "D": 8,
+              "A": 6,
+              "PlusMinus": 4,
+              "KAST": 0.889,
+              "ADR": 139.7,
+              "HS%": 0.25,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "mide",
+              "Agent": "Viper",
+              "R1.0": 1.262,
+              "ACS": 219,
+              "K": 15,
+              "D": 10,
+              "A": 5,
+              "PlusMinus": 5,
+              "KAST": 0.833,
+              "ADR": 141.6,
+              "HS%": 0.171,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Eva",
+              "Agent": "Sova",
+              "R1.0": 1.119,
+              "ACS": 136,
+              "K": 10,
+              "D": 8,
+              "A": 5,
+              "PlusMinus": 2,
+              "KAST": 0.889,
+              "ADR": 99.9,
+              "HS%": 0.292,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "<3",
+          "teamName": "Less Than Three",
+          "players": [
+            {
+              "Player": "Ani",
+              "Agent": "Jett",
+              "R1.0": 0.961,
+              "ACS": 226,
+              "K": 15,
+              "D": 15,
+              "A": 2,
+              "PlusMinus": 0,
+              "KAST": 0.667,
+              "ADR": 153.9,
+              "HS%": 0.167,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Yessi",
+              "Agent": "Viper",
+              "R1.0": 0.765,
+              "ACS": 219,
+              "K": 13,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.611,
+              "ADR": 130.2,
+              "HS%": 0.056,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Ride",
+              "Agent": "Sova",
+              "R1.0": 0.695,
+              "ACS": 192,
+              "K": 12,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.611,
+              "ADR": 119.5,
+              "HS%": 0.195,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Otaka",
+              "Agent": "Omen",
+              "R1.0": 0.325,
+              "ACS": 87,
+              "K": 4,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": -12,
+              "KAST": 0.444,
+              "ADR": 70.4,
+              "HS%": 0.105,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Snowfall",
+              "Agent": "Neon",
+              "R1.0": 0.133,
+              "ACS": 58,
+              "K": 2,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -15,
+              "KAST": 0.389,
+              "ADR": 49.1,
+              "HS%": 0.1,
+              "FK": 0,
+              "FD": 7,
+              "PlusMinus2": -7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 5,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "WFC",
+          "teamName": "Wetherspoons FC",
+          "players": [
+            {
+              "Player": "mide",
+              "Agent": "Omen",
+              "R1.0": 1.717,
+              "ACS": 343,
+              "K": 21,
+              "D": 10,
+              "A": 13,
+              "PlusMinus": 11,
+              "KAST": 0.944,
+              "ADR": 196.3,
+              "HS%": 0.099,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "King",
+              "Agent": "Neon",
+              "R1.0": 1.381,
+              "ACS": 271,
+              "K": 19,
+              "D": 11,
+              "A": 5,
+              "PlusMinus": 8,
+              "KAST": 0.944,
+              "ADR": 145.9,
+              "HS%": 0.288,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "Charlotte",
+              "Agent": "Vyse",
+              "R1.0": 1.306,
+              "ACS": 245,
+              "K": 18,
+              "D": 11,
+              "A": 2,
+              "PlusMinus": 7,
+              "KAST": 0.778,
+              "ADR": 164.3,
+              "HS%": 0.192,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "tonnoman",
+              "Agent": "Viper",
+              "R1.0": 1.197,
+              "ACS": 245,
+              "K": 15,
+              "D": 12,
+              "A": 7,
+              "PlusMinus": 3,
+              "KAST": 0.667,
+              "ADR": 165.1,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Eva",
+              "Agent": "Fade",
+              "R1.0": 1.091,
+              "ACS": 174,
+              "K": 11,
+              "D": 11,
+              "A": 11,
+              "PlusMinus": 0,
+              "KAST": 0.778,
+              "ADR": 118.0,
+              "HS%": 0.27,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "<3",
+          "teamName": "Less Than Three",
+          "players": [
+            {
+              "Player": "Yessi",
+              "Agent": "Chamber",
+              "R1.0": 1.218,
+              "ACS": 303,
+              "K": 20,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": 4,
+              "KAST": 0.778,
+              "ADR": 196.2,
+              "HS%": 0.289,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Ride",
+              "Agent": "Fade",
+              "R1.0": 0.856,
+              "ACS": 234,
+              "K": 15,
+              "D": 16,
+              "A": 1,
+              "PlusMinus": -1,
+              "KAST": 0.722,
+              "ADR": 129.1,
+              "HS%": 0.263,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Snowfall",
+              "Agent": "Neon",
+              "R1.0": 0.541,
+              "ACS": 168,
+              "K": 9,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -8,
+              "KAST": 0.444,
+              "ADR": 120.2,
+              "HS%": 0.225,
+              "FK": 0,
+              "FD": 4,
+              "PlusMinus2": -4
+            },
+            {
+              "Player": "Otaka",
+              "Agent": "Omen",
+              "R1.0": 0.323,
+              "ACS": 106,
+              "K": 6,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": -12,
+              "KAST": 0.556,
+              "ADR": 69.7,
+              "HS%": 0.074,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Ani",
+              "Agent": "Breach",
+              "R1.0": 0.304,
+              "ACS": 97,
+              "K": 5,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": -12,
+              "KAST": 0.444,
+              "ADR": 69.3,
+              "HS%": 0.294,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=VlYrUdDU-j0"
+}

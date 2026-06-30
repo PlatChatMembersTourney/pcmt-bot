@@ -1,0 +1,725 @@
+{
+  "id": "dfm-vs-spg-s2-group-omega-2026-05-31",
+  "team1": "DFM",
+  "team2": "SPG",
+  "team1Name": "Dementia Found Me",
+  "team2Name": "Spank Ptheory Gaming",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-05-31T22:00:00Z",
+  "stage": "Group Omega",
+  "veto": "SPG bans Fracture, DFM bans Ascent, SPG picks Lotus, DFM picks Pearl, SPG bans Haven, DFM bans Split, Breeze remains",
+  "maps": [
+    {
+      "name": "Lotus",
+      "score1": 3,
+      "score2": 13
+    },
+    {
+      "name": "Pearl",
+      "score1": 5,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "DFM",
+      "teamName": "Dementia Found Me",
+      "players": [
+        {
+          "Player": "longclaw",
+          "R1.0": 0.789,
+          "ACS": 204,
+          "K": 22,
+          "D": 29,
+          "A": 8,
+          "PlusMinus": -7,
+          "KAST": 0.588,
+          "ADR": 131.1,
+          "HS%": 0.255,
+          "FK": 4,
+          "FD": 2,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "hascan",
+          "R1.0": 0.704,
+          "ACS": 190,
+          "K": 21,
+          "D": 31,
+          "A": 8,
+          "PlusMinus": -10,
+          "KAST": 0.588,
+          "ADR": 124.1,
+          "HS%": 0.156,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "jooah",
+          "R1.0": 0.692,
+          "ACS": 185,
+          "K": 22,
+          "D": 30,
+          "A": 3,
+          "PlusMinus": -8,
+          "KAST": 0.588,
+          "ADR": 116.1,
+          "HS%": 0.182,
+          "FK": 1,
+          "FD": 2,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "masao",
+          "R1.0": 0.554,
+          "ACS": 161,
+          "K": 17,
+          "D": 30,
+          "A": 5,
+          "PlusMinus": -13,
+          "KAST": 0.5,
+          "ADR": 98.6,
+          "HS%": 0.143,
+          "FK": 5,
+          "FD": 5,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "teklo",
+          "R1.0": 0.323,
+          "ACS": 100,
+          "K": 11,
+          "D": 33,
+          "A": 8,
+          "PlusMinus": -22,
+          "KAST": 0.5,
+          "ADR": 67.8,
+          "HS%": 0.151,
+          "FK": 1,
+          "FD": 10,
+          "PlusMinus2": -9
+        }
+      ]
+    },
+    {
+      "team": "SPG",
+      "teamName": "Spank Ptheory Gaming",
+      "players": [
+        {
+          "Player": "cooleo",
+          "R1.0": 1.712,
+          "ACS": 325,
+          "K": 41,
+          "D": 18,
+          "A": 13,
+          "PlusMinus": 23,
+          "KAST": 0.912,
+          "ADR": 211.5,
+          "HS%": 0.285,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "phuzzy",
+          "R1.0": 1.511,
+          "ACS": 249,
+          "K": 31,
+          "D": 13,
+          "A": 8,
+          "PlusMinus": 18,
+          "KAST": 0.853,
+          "ADR": 165.4,
+          "HS%": 0.2,
+          "FK": 6,
+          "FD": 1,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "thighs",
+          "R1.0": 1.477,
+          "ACS": 276,
+          "K": 34,
+          "D": 21,
+          "A": 18,
+          "PlusMinus": 13,
+          "KAST": 0.882,
+          "ADR": 183.9,
+          "HS%": 0.276,
+          "FK": 1,
+          "FD": 0,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "dunkn",
+          "R1.0": 1.112,
+          "ACS": 165,
+          "K": 22,
+          "D": 18,
+          "A": 18,
+          "PlusMinus": 4,
+          "KAST": 0.823,
+          "ADR": 91.8,
+          "HS%": 0.157,
+          "FK": 4,
+          "FD": 2,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "derpina",
+          "R1.0": 1.052,
+          "ACS": 196,
+          "K": 25,
+          "D": 23,
+          "A": 9,
+          "PlusMinus": 2,
+          "KAST": 0.765,
+          "ADR": 131.1,
+          "HS%": 0.309,
+          "FK": 6,
+          "FD": 5,
+          "PlusMinus2": 1
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Lotus",
+      "score1": 3,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DFM",
+          "teamName": "Dementia Found Me",
+          "players": [
+            {
+              "Player": "hascan",
+              "Agent": "Vyse",
+              "R1.0": 0.599,
+              "ACS": 150,
+              "K": 8,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": -6,
+              "KAST": 0.625,
+              "ADR": 83.6,
+              "HS%": 0.133,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "longclaw",
+              "Agent": "Raze",
+              "R1.0": 0.595,
+              "ACS": 170,
+              "K": 8,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -7,
+              "KAST": 0.562,
+              "ADR": 117.0,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "masao",
+              "Agent": "Fade",
+              "R1.0": 0.479,
+              "ACS": 130,
+              "K": 6,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": -8,
+              "KAST": 0.562,
+              "ADR": 82.2,
+              "HS%": 0.1,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "jooah",
+              "Agent": "Omen",
+              "R1.0": 0.479,
+              "ACS": 140,
+              "K": 7,
+              "D": 15,
+              "A": 2,
+              "PlusMinus": -8,
+              "KAST": 0.562,
+              "ADR": 95.9,
+              "HS%": 0.172,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "teklo",
+              "Agent": "Waylay",
+              "R1.0": 0.457,
+              "ACS": 128,
+              "K": 8,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": -7,
+              "KAST": 0.438,
+              "ADR": 83.2,
+              "HS%": 0.2,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            }
+          ]
+        },
+        {
+          "team": "SPG",
+          "teamName": "Spank Ptheory Gaming",
+          "players": [
+            {
+              "Player": "thighs",
+              "Agent": "Fade",
+              "R1.0": 1.69,
+              "ACS": 289,
+              "K": 16,
+              "D": 8,
+              "A": 12,
+              "PlusMinus": 8,
+              "KAST": 0.938,
+              "ADR": 200.9,
+              "HS%": 0.259,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "phuzzy",
+              "Agent": "Chamber",
+              "R1.0": 1.574,
+              "ACS": 218,
+              "K": 14,
+              "D": 5,
+              "A": 5,
+              "PlusMinus": 9,
+              "KAST": 0.938,
+              "ADR": 156.7,
+              "HS%": 0.2,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "cooleo",
+              "Agent": "Viper",
+              "R1.0": 1.494,
+              "ACS": 247,
+              "K": 15,
+              "D": 7,
+              "A": 4,
+              "PlusMinus": 8,
+              "KAST": 0.938,
+              "ADR": 160.0,
+              "HS%": 0.279,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "derpina",
+              "Agent": "Raze",
+              "R1.0": 1.441,
+              "ACS": 274,
+              "K": 17,
+              "D": 10,
+              "A": 4,
+              "PlusMinus": 7,
+              "KAST": 0.938,
+              "ADR": 176.7,
+              "HS%": 0.342,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "dunkn",
+              "Agent": "Omen",
+              "R1.0": 1.221,
+              "ACS": 177,
+              "K": 11,
+              "D": 7,
+              "A": 9,
+              "PlusMinus": 4,
+              "KAST": 0.812,
+              "ADR": 92.9,
+              "HS%": 0.281,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pearl",
+      "score1": 5,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DFM",
+          "teamName": "Dementia Found Me",
+          "players": [
+            {
+              "Player": "longclaw",
+              "Agent": "Fade",
+              "R1.0": 0.961,
+              "ACS": 235,
+              "K": 14,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": 0,
+              "KAST": 0.611,
+              "ADR": 143.7,
+              "HS%": 0.286,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "jooah",
+              "Agent": "Astra",
+              "R1.0": 0.881,
+              "ACS": 225,
+              "K": 15,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": 0,
+              "KAST": 0.611,
+              "ADR": 134.0,
+              "HS%": 0.19,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "hascan",
+              "Agent": "Vyse",
+              "R1.0": 0.797,
+              "ACS": 226,
+              "K": 13,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -4,
+              "KAST": 0.556,
+              "ADR": 160.1,
+              "HS%": 0.176,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "masao",
+              "Agent": "Phoenix",
+              "R1.0": 0.62,
+              "ACS": 189,
+              "K": 11,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -5,
+              "KAST": 0.444,
+              "ADR": 113.2,
+              "HS%": 0.182,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "teklo",
+              "Agent": "Waylay",
+              "R1.0": 0.205,
+              "ACS": 76,
+              "K": 3,
+              "D": 18,
+              "A": 5,
+              "PlusMinus": -15,
+              "KAST": 0.556,
+              "ADR": 54.2,
+              "HS%": 0.107,
+              "FK": 0,
+              "FD": 5,
+              "PlusMinus2": -5
+            }
+          ]
+        },
+        {
+          "team": "SPG",
+          "teamName": "Spank Ptheory Gaming",
+          "players": [
+            {
+              "Player": "cooleo",
+              "Agent": "Phoenix",
+              "R1.0": 1.906,
+              "ACS": 394,
+              "K": 26,
+              "D": 11,
+              "A": 9,
+              "PlusMinus": 15,
+              "KAST": 0.889,
+              "ADR": 257.3,
+              "HS%": 0.29,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "phuzzy",
+              "Agent": "Chamber",
+              "R1.0": 1.455,
+              "ACS": 276,
+              "K": 17,
+              "D": 8,
+              "A": 3,
+              "PlusMinus": 9,
+              "KAST": 0.778,
+              "ADR": 173.2,
+              "HS%": 0.2,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "thighs",
+              "Agent": "Fade",
+              "R1.0": 1.289,
+              "ACS": 264,
+              "K": 18,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": 5,
+              "KAST": 0.833,
+              "ADR": 168.7,
+              "HS%": 0.292,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "dunkn",
+              "Agent": "Astra",
+              "R1.0": 1.015,
+              "ACS": 155,
+              "K": 11,
+              "D": 11,
+              "A": 9,
+              "PlusMinus": 0,
+              "KAST": 0.833,
+              "ADR": 90.8,
+              "HS%": 0.047,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "derpina",
+              "Agent": "Jett",
+              "R1.0": 0.707,
+              "ACS": 127,
+              "K": 8,
+              "D": 13,
+              "A": 5,
+              "PlusMinus": -5,
+              "KAST": 0.611,
+              "ADR": 90.6,
+              "HS%": 0.28,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=s6A-yj6jvX8"
+}

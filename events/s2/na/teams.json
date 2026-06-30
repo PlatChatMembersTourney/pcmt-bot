@@ -1,0 +1,74 @@
+{
+    "DRG": {
+        "name": "DeRank Gamers",
+        "abbr": "DRG",
+        "logo": "/icons/s2_teams/DeRankGamers.png",
+        "players": ["straight", "sizable", "jooah", "amara", "hascan"]
+    },
+    "DRX": {
+        "name": "Dementia Real Exists",
+        "abbr": "DRX",
+        "logo": "/icons/s2_teams/DementiaRealExists.png",
+        "players": ["izz", "longclaw", "rudesubs", "platinum", "teklologik"]
+    },
+    "EMEA": {
+        "name": "Tech Pause Esports",
+        "abbr": "EMEA",
+        "logo": "/icons/s2_teams/TechPauseEsports.png",
+        "players": ["aleks", "pavel", "Eve", "caleb", "kaydeg", "guilty crown"]
+    },
+    "JDG": {
+        "name": "Just Dudes Gaming",
+        "abbr": "JDG",
+        "logo": "/icons/s2_teams/JustDudesGaming.png",
+        "players": ["james", "stingray", "luca", "neckolas", "sylos"]
+    },
+    "KOI": {
+        "name": "Keep On Inting",
+        "abbr": "KOI",
+        "logo": "/icons/s2_teams/KeepOnInting.png",
+        "players": ["lucas", "abstracq", "night", "VALENTIA", "catsmeow"]
+    },
+    "KRU": {
+        "name": "Knives R' Us",
+        "abbr": "KRU",
+        "logo": "/icons/s2_teams/KnivesRUs.png",
+        "players": ["masao", "amiable", "art", "Jack", "tery"]
+    },
+    "MIBR": {
+        "name": "Made in Bronze",
+        "abbr": "MIBR",
+        "logo": "/icons/s2_teams/MadeInBronze.png",
+        "players": ["basil", "lazy", "jay", "spaceman", "androobee"]
+    },
+    "SLLY": {
+        "name": "Silly Geese",
+        "abbr": "SLLY",
+        "logo": "/icons/s2_teams/SillyGeese.png",
+        "players": ["Angus", "pi", "hyypernova", "cloud", "lore"]
+    },
+    "TS": {
+        "name": "Tequila Sunrise",
+        "abbr": "TS",
+        "logo": "/icons/s2_teams/TequilaSunrise.png",
+        "players": ["haych", "shadow", "igneous", "slow", "epsilon"]
+    },
+    "WING": {
+        "name": "Wingman Warriors",
+        "abbr": "WING",
+        "logo": "/icons/s2_teams/WingmanWarriors.png",
+        "players": ["Claps", "psyclone", "skye", "radical", "caesparz"]
+    },
+    "WOOD": {
+        "name": "The Wooden Fence",
+        "abbr": "WOOD",
+        "logo": "/icons/s2_teams/TheWoodenFence.png",
+        "players": ["Thighs", "jenji", "snowfall", "Tenyaku", "dunkn"]
+    },
+    "ZIRC": {
+        "name": "Zirconians",
+        "abbr": "ZIRC",
+        "logo": "/icons/s2_teams/Zirconians.png",
+        "players": ["Blitz", "niboos", "Robohobo", "darshan", "ethan"]
+    }
+}

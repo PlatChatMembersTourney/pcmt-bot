@@ -1,0 +1,26 @@
+{
+    "WFC": {
+        "name": "Wetherspoons FC",
+        "abbr": "WFC",
+        "logo": "/icons/s1_teams/emea/WetherspoonsFC.png",
+        "players": ["mide", "tonnoman", "King", "faye", "Charlotte"]
+    },
+    "MISC": {
+        "name": "Mischifs",
+        "abbr": "MISC",
+        "logo": "/icons/s1_teams/emea/Mischifs.png",
+        "players": ["Gino", "Pandyro", "Ellie", "Otaka", "Taylor"]
+    },
+    "<3": {
+        "name": "Less Than Three",
+        "abbr": "<3",   
+        "logo": "/icons/s1_teams/emea/LessThan3.png",
+        "players": ["Ride", "Snowfall", "Ani", "Yessi", "Pengu"]
+    },
+    "T4K": {
+        "name": "Team FourK",
+        "abbr": "T4K",
+        "logo": "/icons/s1_teams/emea/FourK.png",
+        "players": ["night", "Kramvi", "Eva", "thornyy", "Linus"]
+    }
+}

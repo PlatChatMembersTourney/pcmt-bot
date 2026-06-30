@@ -1,0 +1,21 @@
+{
+  "id": "s3-na",
+  "name": "PCMT Season 3 -- NA",
+  "shortName": "NA",
+  "season": 3,
+  "region": "na",
+  "path": "s3/na",
+  "stages": ["Group Stage", "Playoffs"],
+  "statsFormat": "json",
+  "statsTabs": {
+    "player": ["Angus", "toxic"],
+    "team": ["Angus", "toxic"]
+  },
+  "sheetStats": {
+    "Angus": {
+      "sheetId": "1rzsjy_R8Kx1u8XXH6hjDbrtHB-7XdahYD15j0Un5cgQ",
+      "gid": "821526300",
+      "teamGid": "624289563"
+    }
+  }
+}

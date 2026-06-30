@@ -1,0 +1,760 @@
+{
+  "id": "dfm-vs-ts-s2-group-stage-2026-05-17",
+  "team1": "DFM",
+  "team2": "TS",
+  "team1Name": "Dementia Found Me",
+  "team2Name": "Team Slugshow",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-05-17T21:00:00Z",
+  "stage": "Group Omega",
+  "veto": "DFM bans Ascent, TS bans Haven, DFM picks Pearl, TS picks Breeze, DFM bans Fracture, TS bans Split, Lotus remains",
+  "maps": [
+    {
+      "name": "Pearl",
+      "score1": 11,
+      "score2": 13
+    },
+    {
+      "name": "Breeze",
+      "score1": 4,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "DFM",
+      "teamName": "Dementia Found Me",
+      "players": [
+        {
+          "Player": "hascan",
+          "R1.0": 1.068,
+          "ACS": 233,
+          "K": 35,
+          "D": 29,
+          "A": 8,
+          "PlusMinus": 6,
+          "KAST": 0.61,
+          "ADR": 147.7,
+          "HS%": 0.291,
+          "FK": 2,
+          "FD": 1,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "masao",
+          "R1.0": 0.943,
+          "ACS": 211,
+          "K": 27,
+          "D": 30,
+          "A": 8,
+          "PlusMinus": -3,
+          "KAST": 0.61,
+          "ADR": 149.1,
+          "HS%": 0.195,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "nik",
+          "R1.0": 0.749,
+          "ACS": 196,
+          "K": 26,
+          "D": 36,
+          "A": 7,
+          "PlusMinus": -10,
+          "KAST": 0.561,
+          "ADR": 136.2,
+          "HS%": 0.248,
+          "FK": 2,
+          "FD": 13,
+          "PlusMinus2": -11
+        },
+        {
+          "Player": "teklo",
+          "R1.0": 0.658,
+          "ACS": 161,
+          "K": 21,
+          "D": 36,
+          "A": 11,
+          "PlusMinus": -15,
+          "KAST": 0.61,
+          "ADR": 111.3,
+          "HS%": 0.216,
+          "FK": 4,
+          "FD": 5,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "longclaw",
+          "R1.0": 0.581,
+          "ACS": 123,
+          "K": 18,
+          "D": 33,
+          "A": 6,
+          "PlusMinus": -15,
+          "KAST": 0.561,
+          "ADR": 88.3,
+          "HS%": 0.303,
+          "FK": 3,
+          "FD": 4,
+          "PlusMinus2": -1
+        }
+      ]
+    },
+    {
+      "team": "TS",
+      "teamName": "Team Slugshow",
+      "players": [
+        {
+          "Player": "avi",
+          "R1.0": 1.689,
+          "ACS": 361,
+          "K": 54,
+          "D": 26,
+          "A": 10,
+          "PlusMinus": 28,
+          "KAST": 0.805,
+          "ADR": 240.6,
+          "HS%": 0.405,
+          "FK": 7,
+          "FD": 3,
+          "PlusMinus2": 4
+        },
+        {
+          "Player": "straight",
+          "R1.0": 1.218,
+          "ACS": 253,
+          "K": 38,
+          "D": 27,
+          "A": 4,
+          "PlusMinus": 11,
+          "KAST": 0.756,
+          "ADR": 165.5,
+          "HS%": 0.163,
+          "FK": 14,
+          "FD": 3,
+          "PlusMinus2": 11
+        },
+        {
+          "Player": "dino",
+          "R1.0": 1.103,
+          "ACS": 201,
+          "K": 32,
+          "D": 24,
+          "A": 9,
+          "PlusMinus": 8,
+          "KAST": 0.683,
+          "ADR": 124.2,
+          "HS%": 0.396,
+          "FK": 2,
+          "FD": 2,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "lore",
+          "R1.0": 1.07,
+          "ACS": 179,
+          "K": 27,
+          "D": 23,
+          "A": 11,
+          "PlusMinus": 4,
+          "KAST": 0.78,
+          "ADR": 112.7,
+          "HS%": 0.164,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "pants",
+          "R1.0": 0.682,
+          "ACS": 103,
+          "K": 13,
+          "D": 27,
+          "A": 11,
+          "PlusMinus": -14,
+          "KAST": 0.707,
+          "ADR": 75.3,
+          "HS%": 0.161,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Pearl",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DFM",
+          "teamName": "Dementia Found Me",
+          "players": [
+            {
+              "Player": "hascan",
+              "Agent": "Vyse",
+              "R1.0": 1.069,
+              "ACS": 222,
+              "K": 19,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.625,
+              "ADR": 148.6,
+              "HS%": 0.179,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "masao",
+              "Agent": "Sova",
+              "R1.0": 1.056,
+              "ACS": 223,
+              "K": 17,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.708,
+              "ADR": 161.7,
+              "HS%": 0.196,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "teklo",
+              "Agent": "Waylay",
+              "R1.0": 0.909,
+              "ACS": 191,
+              "K": 15,
+              "D": 19,
+              "A": 9,
+              "PlusMinus": -4,
+              "KAST": 0.708,
+              "ADR": 135.2,
+              "HS%": 0.25,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "nik",
+              "Agent": "Phoenix",
+              "R1.0": 0.852,
+              "ACS": 215,
+              "K": 17,
+              "D": 20,
+              "A": 4,
+              "PlusMinus": -3,
+              "KAST": 0.583,
+              "ADR": 143.2,
+              "HS%": 0.226,
+              "FK": 2,
+              "FD": 7,
+              "PlusMinus2": -5
+            },
+            {
+              "Player": "longclaw",
+              "Agent": "Astra",
+              "R1.0": 0.688,
+              "ACS": 115,
+              "K": 10,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -7,
+              "KAST": 0.667,
+              "ADR": 80.0,
+              "HS%": 0.256,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "TS",
+          "teamName": "Team Slugshow",
+          "players": [
+            {
+              "Player": "avi",
+              "Agent": "Phoenix",
+              "R1.0": 1.53,
+              "ACS": 334,
+              "K": 28,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": 12,
+              "KAST": 0.792,
+              "ADR": 222.2,
+              "HS%": 0.431,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "straight",
+              "Agent": "Jett",
+              "R1.0": 1.077,
+              "ACS": 217,
+              "K": 20,
+              "D": 16,
+              "A": 0,
+              "PlusMinus": 4,
+              "KAST": 0.708,
+              "ADR": 147.5,
+              "HS%": 0.214,
+              "FK": 7,
+              "FD": 2,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "dino",
+              "Agent": "Astra",
+              "R1.0": 1.062,
+              "ACS": 202,
+              "K": 18,
+              "D": 15,
+              "A": 8,
+              "PlusMinus": 3,
+              "KAST": 0.667,
+              "ADR": 119.8,
+              "HS%": 0.372,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "lore",
+              "Agent": "Fade",
+              "R1.0": 1.002,
+              "ACS": 186,
+              "K": 16,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": 1,
+              "KAST": 0.708,
+              "ADR": 112.7,
+              "HS%": 0.103,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "pants",
+              "Agent": "Killjoy",
+              "R1.0": 0.718,
+              "ACS": 113,
+              "K": 7,
+              "D": 16,
+              "A": 8,
+              "PlusMinus": -9,
+              "KAST": 0.75,
+              "ADR": 87.0,
+              "HS%": 0.118,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Breeze",
+      "score1": 4,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "DFM",
+          "teamName": "Dementia Found Me",
+          "players": [
+            {
+              "Player": "hascan",
+              "Agent": "Harbor",
+              "R1.0": 1.065,
+              "ACS": 249,
+              "K": 16,
+              "D": 13,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.588,
+              "ADR": 146.5,
+              "HS%": 0.448,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "masao",
+              "Agent": "Sova",
+              "R1.0": 0.783,
+              "ACS": 194,
+              "K": 10,
+              "D": 13,
+              "A": 3,
+              "PlusMinus": -3,
+              "KAST": 0.471,
+              "ADR": 131.2,
+              "HS%": 0.194,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "nik",
+              "Agent": "Jett",
+              "R1.0": 0.604,
+              "ACS": 170,
+              "K": 9,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -7,
+              "KAST": 0.529,
+              "ADR": 126.3,
+              "HS%": 0.28,
+              "FK": 0,
+              "FD": 6,
+              "PlusMinus2": -6
+            },
+            {
+              "Player": "longclaw",
+              "Agent": "Viper",
+              "R1.0": 0.429,
+              "ACS": 134,
+              "K": 8,
+              "D": 16,
+              "A": 0,
+              "PlusMinus": -8,
+              "KAST": 0.412,
+              "ADR": 100.0,
+              "HS%": 0.37,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "teklo",
+              "Agent": "Yoru",
+              "R1.0": 0.302,
+              "ACS": 119,
+              "K": 6,
+              "D": 17,
+              "A": 2,
+              "PlusMinus": -11,
+              "KAST": 0.471,
+              "ADR": 77.5,
+              "HS%": 0.167,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "TS",
+          "teamName": "Team Slugshow",
+          "players": [
+            {
+              "Player": "avi",
+              "Agent": "Iso",
+              "R1.0": 1.915,
+              "ACS": 398,
+              "K": 26,
+              "D": 10,
+              "A": 4,
+              "PlusMinus": 16,
+              "KAST": 0.824,
+              "ADR": 266.6,
+              "HS%": 0.368,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "straight",
+              "Agent": "Jett",
+              "R1.0": 1.416,
+              "ACS": 304,
+              "K": 18,
+              "D": 11,
+              "A": 4,
+              "PlusMinus": 7,
+              "KAST": 0.824,
+              "ADR": 190.9,
+              "HS%": 0.091,
+              "FK": 7,
+              "FD": 1,
+              "PlusMinus2": 6
+            },
+            {
+              "Player": "lore",
+              "Agent": "Astra",
+              "R1.0": 1.166,
+              "ACS": 168,
+              "K": 11,
+              "D": 8,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.882,
+              "ADR": 112.6,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "dino",
+              "Agent": "Viper",
+              "R1.0": 1.161,
+              "ACS": 200,
+              "K": 14,
+              "D": 9,
+              "A": 1,
+              "PlusMinus": 5,
+              "KAST": 0.706,
+              "ADR": 130.5,
+              "HS%": 0.429,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "pants",
+              "Agent": "Sova",
+              "R1.0": 0.631,
+              "ACS": 89,
+              "K": 6,
+              "D": 11,
+              "A": 3,
+              "PlusMinus": -5,
+              "KAST": 0.647,
+              "ADR": 58.9,
+              "HS%": 0.222,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=Q5LvhS0MiJk"
+}

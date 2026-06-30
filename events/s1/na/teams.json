@@ -1,0 +1,26 @@
+{
+    "CIN": {
+        "name": "Absolute Cinema",
+        "abbr": "CIN",
+        "logo": "/icons/s1_teams/Absolute Cinema.png",
+        "players": ["MrSirClaps", "abstracq", "pi", "Platypus_Eggs", "lore", "cardamom", "WHOGOTPIE"]
+    },
+    "KAT": {
+        "name": "Kurt's Kittens",
+        "abbr": "KAT",
+        "logo": "/icons/s1_teams/Kurt's Kittens.png",
+        "players": ["caprielle", "beans", "skye", "Moelandblue", "Angus", "haych", "AtmosFear"]
+    },
+    "WALL": {
+        "name": "The Brick Wall",
+        "abbr": "WALL",
+        "logo": "/icons/s1_teams/The Brick Wall.png",
+        "players": ["Lil Thighs", "dunkn", "hyypernova", "Mr Basil", "Tenyaku"]
+    },
+    "YGSYD": {
+        "name": "You Get Shot You Die",
+        "abbr": "YGSYD",
+        "logo": "/icons/s1_teams/You Get Shot You Die.png",
+        "players": ["amara", "platinum", "igneous", "retro", "devil", "longclaw"]
+    }
+}

@@ -1,0 +1,1036 @@
+{
+  "id": "ihop-vs-fsg-s2-group-alpha-2026-06-14",
+  "team1": "IHOP",
+  "team2": "FSG",
+  "team1Name": "I Hate Odin Party",
+  "team2Name": "Furry Squirrels Gaming",
+  "score1": 1,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 1,
+  "date": "2026-06-14T23:00:00Z",
+  "stage": "Group Alpha",
+  "veto": "IHOP bans Ascent, FSG bans Fracture, IHOP picks Pearl, FSG picks Lotus, IHOP bans Split, FSG bans Breeze, Haven remains",
+  "maps": [
+    {
+      "name": "Pearl",
+      "score1": 11,
+      "score2": 13
+    },
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 0
+    },
+    {
+      "name": "Haven",
+      "score1": 9,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "IHOP",
+      "teamName": "I Hate Odin Party",
+      "players": [
+        {
+          "Player": "pavel",
+          "R1.0": 1.352,
+          "ACS": 278,
+          "K": 58,
+          "D": 34,
+          "A": 13,
+          "PlusMinus": 24,
+          "KAST": 0.729,
+          "ADR": 170.6,
+          "HS%": 0.185,
+          "FK": 9,
+          "FD": 7,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "eve",
+          "R1.0": 1.291,
+          "ACS": 285,
+          "K": 59,
+          "D": 41,
+          "A": 12,
+          "PlusMinus": 18,
+          "KAST": 0.695,
+          "ADR": 189.3,
+          "HS%": 0.292,
+          "FK": 8,
+          "FD": 9,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "ethan",
+          "R1.0": 1.287,
+          "ACS": 235,
+          "K": 51,
+          "D": 37,
+          "A": 23,
+          "PlusMinus": 14,
+          "KAST": 0.881,
+          "ADR": 153.8,
+          "HS%": 0.288,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "platinum",
+          "R1.0": 0.791,
+          "ACS": 145,
+          "K": 29,
+          "D": 42,
+          "A": 15,
+          "PlusMinus": -13,
+          "KAST": 0.712,
+          "ADR": 99.9,
+          "HS%": 0.228,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "maple",
+          "R1.0": 0.612,
+          "ACS": 125,
+          "K": 23,
+          "D": 44,
+          "A": 12,
+          "PlusMinus": -21,
+          "KAST": 0.56,
+          "ADR": 86.1,
+          "HS%": 0.163,
+          "FK": 2,
+          "FD": 9,
+          "PlusMinus2": -7
+        }
+      ]
+    },
+    {
+      "team": "FSG",
+      "teamName": "Furry Squirrels Gaming",
+      "players": [
+        {
+          "Player": "nolan",
+          "R1.0": 1.219,
+          "ACS": 261,
+          "K": 50,
+          "D": 42,
+          "A": 12,
+          "PlusMinus": 8,
+          "KAST": 0.746,
+          "ADR": 193.4,
+          "HS%": 0.223,
+          "FK": 10,
+          "FD": 8,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "skye",
+          "R1.0": 1.007,
+          "ACS": 227,
+          "K": 47,
+          "D": 45,
+          "A": 7,
+          "PlusMinus": 2,
+          "KAST": 0.728,
+          "ADR": 147.6,
+          "HS%": 0.241,
+          "FK": 8,
+          "FD": 6,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "amara",
+          "R1.0": 0.927,
+          "ACS": 193,
+          "K": 40,
+          "D": 42,
+          "A": 10,
+          "PlusMinus": -2,
+          "KAST": 0.627,
+          "ADR": 131.8,
+          "HS%": 0.133,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "rudra",
+          "R1.0": 0.831,
+          "ACS": 167,
+          "K": 32,
+          "D": 45,
+          "A": 25,
+          "PlusMinus": -13,
+          "KAST": 0.695,
+          "ADR": 109.2,
+          "HS%": 0.226,
+          "FK": 6,
+          "FD": 1,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "corina",
+          "R1.0": 0.713,
+          "ACS": 147,
+          "K": 29,
+          "D": 46,
+          "A": 16,
+          "PlusMinus": -17,
+          "KAST": 0.627,
+          "ADR": 101.3,
+          "HS%": 0.244,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Pearl",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "IHOP",
+          "teamName": "I Hate Odin Party",
+          "players": [
+            {
+              "Player": "pavel",
+              "Agent": "Phoenix",
+              "R1.0": 1.39,
+              "ACS": 316,
+              "K": 25,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 10,
+              "KAST": 0.625,
+              "ADR": 200.1,
+              "HS%": 0.273,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "ethan",
+              "Agent": "Astra",
+              "R1.0": 1.186,
+              "ACS": 225,
+              "K": 20,
+              "D": 17,
+              "A": 7,
+              "PlusMinus": 3,
+              "KAST": 0.833,
+              "ADR": 163.2,
+              "HS%": 0.339,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "eve",
+              "Agent": "Jett",
+              "R1.0": 0.845,
+              "ACS": 216,
+              "K": 17,
+              "D": 20,
+              "A": 2,
+              "PlusMinus": -3,
+              "KAST": 0.583,
+              "ADR": 148.0,
+              "HS%": 0.298,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "platinum",
+              "Agent": "Fade",
+              "R1.0": 0.643,
+              "ACS": 131,
+              "K": 11,
+              "D": 19,
+              "A": 6,
+              "PlusMinus": -8,
+              "KAST": 0.583,
+              "ADR": 92.2,
+              "HS%": 0.206,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "maple",
+              "Agent": "Vyse",
+              "R1.0": 0.448,
+              "ACS": 93,
+              "K": 6,
+              "D": 20,
+              "A": 9,
+              "PlusMinus": -14,
+              "KAST": 0.542,
+              "ADR": 68.2,
+              "HS%": 0.093,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "FSG",
+          "teamName": "Furry Squirrels Gaming",
+          "players": [
+            {
+              "Player": "nolan",
+              "Agent": "Killjoy",
+              "R1.0": 1.699,
+              "ACS": 365,
+              "K": 30,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": 15,
+              "KAST": 0.833,
+              "ADR": 248.2,
+              "HS%": 0.206,
+              "FK": 5,
+              "FD": 0,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "skye",
+              "Agent": "Jett",
+              "R1.0": 1.202,
+              "ACS": 242,
+              "K": 23,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": 7,
+              "KAST": 0.833,
+              "ADR": 146.8,
+              "HS%": 0.289,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "rudra",
+              "Agent": "Astra",
+              "R1.0": 1.059,
+              "ACS": 190,
+              "K": 13,
+              "D": 16,
+              "A": 15,
+              "PlusMinus": -3,
+              "KAST": 0.75,
+              "ADR": 141.7,
+              "HS%": 0.263,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "amara",
+              "Agent": "Fade",
+              "R1.0": 0.997,
+              "ACS": 177,
+              "K": 15,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 0,
+              "KAST": 0.667,
+              "ADR": 128.8,
+              "HS%": 0.145,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "corina",
+              "Agent": "Phoenix",
+              "R1.0": 0.713,
+              "ACS": 129,
+              "K": 10,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -7,
+              "KAST": 0.625,
+              "ADR": 95.1,
+              "HS%": 0.25,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 0,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "IHOP",
+          "teamName": "I Hate Odin Party",
+          "players": [
+            {
+              "Player": "eve",
+              "Agent": "Waylay",
+              "R1.0": 2.047,
+              "ACS": 377,
+              "K": 18,
+              "D": 5,
+              "A": 6,
+              "PlusMinus": 13,
+              "KAST": 1.0,
+              "ADR": 238.1,
+              "HS%": 0.32,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "ethan",
+              "Agent": "Omen",
+              "R1.0": 1.81,
+              "ACS": 291,
+              "K": 14,
+              "D": 4,
+              "A": 7,
+              "PlusMinus": 10,
+              "KAST": 1.0,
+              "ADR": 176.8,
+              "HS%": 0.375,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "pavel",
+              "Agent": "Raze",
+              "R1.0": 1.735,
+              "ACS": 302,
+              "K": 16,
+              "D": 5,
+              "A": 3,
+              "PlusMinus": 11,
+              "KAST": 0.923,
+              "ADR": 177.7,
+              "HS%": 0.16,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "platinum",
+              "Agent": "Fade",
+              "R1.0": 1.239,
+              "ACS": 165,
+              "K": 8,
+              "D": 5,
+              "A": 2,
+              "PlusMinus": 3,
+              "KAST": 1.0,
+              "ADR": 111.5,
+              "HS%": 0.333,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "maple",
+              "Agent": "Killjoy",
+              "R1.0": 1.122,
+              "ACS": 162,
+              "K": 8,
+              "D": 5,
+              "A": 1,
+              "PlusMinus": 3,
+              "KAST": 0.769,
+              "ADR": 100.6,
+              "HS%": 0.25,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "FSG",
+          "teamName": "Furry Squirrels Gaming",
+          "players": [
+            {
+              "Player": "nolan",
+              "Agent": "Vyse",
+              "R1.0": 0.477,
+              "ACS": 148,
+              "K": 5,
+              "D": 12,
+              "A": 1,
+              "PlusMinus": -7,
+              "KAST": 0.462,
+              "ADR": 118.7,
+              "HS%": 0.261,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "skye",
+              "Agent": "Raze",
+              "R1.0": 0.427,
+              "ACS": 168,
+              "K": 6,
+              "D": 13,
+              "A": 0,
+              "PlusMinus": -7,
+              "KAST": 0.538,
+              "ADR": 105.9,
+              "HS%": 0.097,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "rudra",
+              "Agent": "Omen",
+              "R1.0": 0.426,
+              "ACS": 148,
+              "K": 7,
+              "D": 13,
+              "A": 0,
+              "PlusMinus": -6,
+              "KAST": 0.615,
+              "ADR": 78.8,
+              "HS%": 0.231,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "amara",
+              "Agent": "Fade",
+              "R1.0": 0.215,
+              "ACS": 110,
+              "K": 4,
+              "D": 13,
+              "A": 1,
+              "PlusMinus": -9,
+              "KAST": 0.308,
+              "ADR": 76.7,
+              "HS%": 0.083,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "corina",
+              "Agent": "Skye",
+              "R1.0": 0.087,
+              "ACS": 63,
+              "K": 2,
+              "D": 13,
+              "A": 2,
+              "PlusMinus": -11,
+              "KAST": 0.385,
+              "ADR": 42.3,
+              "HS%": 0.071,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 9,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "IHOP",
+          "teamName": "I Hate Odin Party",
+          "players": [
+            {
+              "Player": "eve",
+              "Agent": "Waylay",
+              "R1.0": 1.33,
+              "ACS": 306,
+              "K": 24,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": 8,
+              "KAST": 0.636,
+              "ADR": 205.4,
+              "HS%": 0.268,
+              "FK": 4,
+              "FD": 6,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "ethan",
+              "Agent": "Omen",
+              "R1.0": 1.09,
+              "ACS": 212,
+              "K": 17,
+              "D": 16,
+              "A": 9,
+              "PlusMinus": 1,
+              "KAST": 0.864,
+              "ADR": 129.9,
+              "HS%": 0.182,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "pavel",
+              "Agent": "Phoenix",
+              "R1.0": 1.085,
+              "ACS": 222,
+              "K": 17,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": 3,
+              "KAST": 0.727,
+              "ADR": 134.2,
+              "HS%": 0.104,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "platinum",
+              "Agent": "Sova",
+              "R1.0": 0.688,
+              "ACS": 149,
+              "K": 10,
+              "D": 18,
+              "A": 7,
+              "PlusMinus": -8,
+              "KAST": 0.682,
+              "ADR": 101.5,
+              "HS%": 0.189,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "maple",
+              "Agent": "Killjoy",
+              "R1.0": 0.489,
+              "ACS": 138,
+              "K": 9,
+              "D": 19,
+              "A": 2,
+              "PlusMinus": -10,
+              "KAST": 0.455,
+              "ADR": 97.0,
+              "HS%": 0.189,
+              "FK": 0,
+              "FD": 4,
+              "PlusMinus2": -4
+            }
+          ]
+        },
+        {
+          "team": "FSG",
+          "teamName": "Furry Squirrels Gaming",
+          "players": [
+            {
+              "Player": "amara",
+              "Agent": "Sova",
+              "R1.0": 1.272,
+              "ACS": 260,
+              "K": 21,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": 7,
+              "KAST": 0.773,
+              "ADR": 167.6,
+              "HS%": 0.149,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "skye",
+              "Agent": "Jett",
+              "R1.0": 1.138,
+              "ACS": 246,
+              "K": 18,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 2,
+              "KAST": 0.727,
+              "ADR": 173.1,
+              "HS%": 0.273,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "nolan",
+              "Agent": "Cypher",
+              "R1.0": 1.133,
+              "ACS": 214,
+              "K": 15,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": 0,
+              "KAST": 0.818,
+              "ADR": 177.8,
+              "HS%": 0.219,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "corina",
+              "Agent": "Skye",
+              "R1.0": 1.083,
+              "ACS": 217,
+              "K": 17,
+              "D": 16,
+              "A": 8,
+              "PlusMinus": 1,
+              "KAST": 0.773,
+              "ADR": 142.9,
+              "HS%": 0.34,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "rudra",
+              "Agent": "Omen",
+              "R1.0": 0.823,
+              "ACS": 153,
+              "K": 12,
+              "D": 16,
+              "A": 10,
+              "PlusMinus": -4,
+              "KAST": 0.682,
+              "ADR": 91.7,
+              "HS%": 0.182,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=CV2GUHYExVo"
+}

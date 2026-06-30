@@ -1,0 +1,72 @@
+{
+    "FaZe": {
+        "name": "Fabulous and Zesty",
+        "abbr": "FaZe",
+        "logo": "/icons/s3_teams/na/Fabulous and Zesty.png",
+        "group": "Group Alpha",
+        "players": ["heef", "dragonflyod", "Kramvi", "thorny", "nana"]
+    },
+    "ATLC": {
+        "name": "ATLNTIC Esports",
+        "abbr": "ATLC",
+        "logo": "/icons/s3_teams/na/ATLNTIC Esports.png",
+        "group": "Group Alpha",
+        "players": ["Night", "Optimus", "Sky", "bonkashi", "ria"]
+    },
+    "HOT": {
+        "name": "Honestly Outrageous Temperatures",
+        "abbr": "HOT",
+        "logo": "/icons/s3_teams/na/Honestly Outrageous Temperatures.png",
+        "group": "Group Alpha",
+        "players": ["shipty", "Tonnoman", "Sovaraa", "Hioz", "Duck"]
+    },
+    "NIP": {
+        "name": "Name in Progress",
+        "abbr": "NIP",
+        "logo": "/icons/s3_teams/na/Name in Progress.png",
+        "group": "Group Alpha",
+        "players": ["Kai", "Pandyro", "SB", "goofy", "jinno"]
+    },
+    "XTC": {
+        "name": "Extra Traditional Comps",
+        "abbr": "XTC",
+        "logo": "/icons/s3_teams/na/Extra Traditional Comps.png",
+        "group": "Group Alpha",
+        "players": ["sinderinho", "alexx", "Ani", "Yessi", "Riyako"]
+    },
+    "SEAL": {
+        "name": "Stay Seally",
+        "abbr": "SEAL",
+        "logo": "/icons/s3_teams/na/Stay Seally.png",
+        "group": "Group Omega",
+        "players": ["Gino", "hmmmdead", "reoken", "otaka", "Spolen"]
+    },
+    "NATS": {
+        "name": "Never Available To Scrim",
+        "abbr": "NATS",
+        "logo": "/icons/s3_teams/na/Never Available To Scrim.png",
+        "group": "Group Omega",
+        "players": ["denial", "Haych", "Dovie", "Eva", "FeeNix"]
+    },
+    "LARP": {
+        "name": "Larpiat\u00e1n",
+        "abbr": "LARP",
+        "logo": "/icons/s3_teams/na/Larpiat\u00e1n.png",
+        "group": "Group Omega",
+        "players": ["mide", "oddlqt", "Kaiser", "Ellie", "synth"]
+    },
+    "NOOT": {
+        "name": "Penguin Patrol",
+        "abbr": "NOOT",
+        "logo": "/icons/s3_teams/na/Penguin Patrol.png",
+        "group": "Group Omega",
+        "players": ["Jamit", "Haike", "King", "taylorgzz", "Pengu"]
+    },
+    "SOG": {
+        "name": "The SOG",
+        "abbr": "SOG",
+        "logo": "/icons/s3_teams/na/The SOG.png",
+        "group": "Group Omega",
+        "players": ["autumn", "alet", "faye", "magmoz", "Charlotte"]
+    }
+}

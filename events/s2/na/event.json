@@ -1,0 +1,42 @@
+{
+  "id": "s2-na",
+  "name": "PCMT Season 2",
+  "shortName": "S2",
+  "season": 2,
+  "region": "na",
+  "path": "s2/na",
+  "stages": ["Group Stage", "LCQ", "Playoffs"],
+  "statsFormat": "json",
+  "statsTabs": {
+    "player": ["Angus", "pi", "toxic"],
+    "team": ["toxic"]
+  },
+  "sheetStats": {
+    "Angus": {
+      "sheetId": "1NZNABsU_XUlmcSgjhv94KVvbRtpYji6yPjs0g2Ro3Ak",
+      "gid": "821526300"
+    },
+    "pi": {
+      "sheetId": "1QkBIqtPC5jP1b1rKkn39U7z5DJJ-6SYdbWcgA6Wz7AQ",
+      "gid": "1023990137"
+    }
+  },
+  "standings": {
+    "sheetId": "16ylGbnoG4kfrqp_N6MxE6tjDLM_Lo7adorzKHHBQTp8",
+    "gid": "1622887646"
+  },
+  "brackets": {
+    "lcq": {
+      "stageFilter": "lcq",
+      "openingLabel": "Opening",
+      "seeds": { "opening1": ["JDG", "MIBR"], "opening2": ["ZIRC", "DRG"] },
+      "hasGrandFinal": false
+    },
+    "playoffs": {
+      "stageFilter": "playoff",
+      "openingLabel": "Quarterfinal",
+      "seeds": { "opening1": ["EMEA", "JDG"], "opening2": ["WING", "DRG"] },
+      "hasGrandFinal": true
+    }
+  }
+}

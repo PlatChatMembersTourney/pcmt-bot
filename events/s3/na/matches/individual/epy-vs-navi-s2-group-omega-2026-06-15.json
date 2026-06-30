@@ -1,0 +1,740 @@
+{
+  "id": "epy-vs-navi-s2-group-omega-2026-06-15",
+  "team1": "EPY",
+  "team2": "NAVI",
+  "team1Name": "Team Entropy",
+  "team2Name": "No Actual Valorant Intelligence",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-06-15T00:00:00Z",
+  "stage": "Group Omega",
+  "veto": "EPY bans Breeze, NAVI bans Fracture, EPY picks Lotus, NAVI picks Pearl, EPY bans Split, NAVI bans Haven, Ascent remains",
+  "maps": [
+    {
+      "name": "Lotus",
+      "score1": 10,
+      "score2": 13
+    },
+    {
+      "name": "Pearl",
+      "score1": 1,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "EPY",
+      "teamName": "Team Entropy",
+      "players": [
+        {
+          "Player": "blitz",
+          "R1.0": 1.299,
+          "ACS": 324,
+          "K": 44,
+          "D": 31,
+          "A": 5,
+          "PlusMinus": 13,
+          "KAST": 0.784,
+          "ADR": 195.6,
+          "HS%": 0.188,
+          "FK": 8,
+          "FD": 5,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "robohobo",
+          "R1.0": 0.856,
+          "ACS": 208,
+          "K": 28,
+          "D": 31,
+          "A": 4,
+          "PlusMinus": -3,
+          "KAST": 0.622,
+          "ADR": 135.9,
+          "HS%": 0.189,
+          "FK": 0,
+          "FD": 5,
+          "PlusMinus2": -5
+        },
+        {
+          "Player": "apple",
+          "R1.0": 0.787,
+          "ACS": 224,
+          "K": 26,
+          "D": 36,
+          "A": 11,
+          "PlusMinus": -10,
+          "KAST": 0.703,
+          "ADR": 139.8,
+          "HS%": 0.148,
+          "FK": 4,
+          "FD": 6,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "solar",
+          "R1.0": 0.711,
+          "ACS": 157,
+          "K": 17,
+          "D": 31,
+          "A": 17,
+          "PlusMinus": -14,
+          "KAST": 0.622,
+          "ADR": 111.2,
+          "HS%": 0.197,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "jolly",
+          "R1.0": 0.277,
+          "ACS": 46,
+          "K": 5,
+          "D": 30,
+          "A": 7,
+          "PlusMinus": -25,
+          "KAST": 0.594,
+          "ADR": 27.4,
+          "HS%": 0.137,
+          "FK": 0,
+          "FD": 3,
+          "PlusMinus2": -3
+        }
+      ]
+    },
+    {
+      "team": "NAVI",
+      "teamName": "No Actual Valorant Intelligence",
+      "players": [
+        {
+          "Player": "stingray",
+          "R1.0": 1.435,
+          "ACS": 263,
+          "K": 35,
+          "D": 21,
+          "A": 14,
+          "PlusMinus": 14,
+          "KAST": 0.838,
+          "ADR": 180.8,
+          "HS%": 0.218,
+          "FK": 5,
+          "FD": 2,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "masao",
+          "R1.0": 1.347,
+          "ACS": 232,
+          "K": 33,
+          "D": 20,
+          "A": 14,
+          "PlusMinus": 13,
+          "KAST": 0.865,
+          "ADR": 144.5,
+          "HS%": 0.254,
+          "FK": 1,
+          "FD": 0,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "linus",
+          "R1.0": 1.332,
+          "ACS": 253,
+          "K": 34,
+          "D": 23,
+          "A": 17,
+          "PlusMinus": 11,
+          "KAST": 0.838,
+          "ADR": 156.9,
+          "HS%": 0.133,
+          "FK": 4,
+          "FD": 1,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "kaydeg",
+          "R1.0": 1.137,
+          "ACS": 212,
+          "K": 30,
+          "D": 24,
+          "A": 11,
+          "PlusMinus": 6,
+          "KAST": 0.784,
+          "ADR": 133.3,
+          "HS%": 0.193,
+          "FK": 6,
+          "FD": 7,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "cassie",
+          "R1.0": 0.888,
+          "ACS": 214,
+          "K": 27,
+          "D": 32,
+          "A": 11,
+          "PlusMinus": -5,
+          "KAST": 0.649,
+          "ADR": 143.7,
+          "HS%": 0.241,
+          "FK": 7,
+          "FD": 4,
+          "PlusMinus2": 3
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Lotus",
+      "score1": 10,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "EPY",
+          "teamName": "Team Entropy",
+          "players": [
+            {
+              "Player": "blitz",
+              "Agent": "Raze",
+              "R1.0": 1.449,
+              "ACS": 331,
+              "K": 29,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": 12,
+              "KAST": 0.739,
+              "ADR": 211.9,
+              "HS%": 0.171,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "robohobo",
+              "Agent": "Vyse",
+              "R1.0": 1.195,
+              "ACS": 259,
+              "K": 22,
+              "D": 17,
+              "A": 4,
+              "PlusMinus": 5,
+              "KAST": 0.739,
+              "ADR": 173.0,
+              "HS%": 0.212,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "solar",
+              "Agent": "Omen",
+              "R1.0": 0.848,
+              "ACS": 158,
+              "K": 11,
+              "D": 17,
+              "A": 12,
+              "PlusMinus": -6,
+              "KAST": 0.696,
+              "ADR": 112.8,
+              "HS%": 0.143,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "apple",
+              "Agent": "Viper",
+              "R1.0": 0.78,
+              "ACS": 235,
+              "K": 18,
+              "D": 23,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.696,
+              "ADR": 141.2,
+              "HS%": 0.164,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "jolly",
+              "Agent": "Fade",
+              "R1.0": 0.375,
+              "ACS": 50,
+              "K": 3,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": -14,
+              "KAST": 0.652,
+              "ADR": 33.1,
+              "HS%": 0.118,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "NAVI",
+          "teamName": "No Actual Valorant Intelligence",
+          "players": [
+            {
+              "Player": "stingray",
+              "Agent": "Omen",
+              "R1.0": 1.256,
+              "ACS": 235,
+              "K": 18,
+              "D": 15,
+              "A": 12,
+              "PlusMinus": 3,
+              "KAST": 0.826,
+              "ADR": 162.7,
+              "HS%": 0.212,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "masao",
+              "Agent": "Fade",
+              "R1.0": 1.218,
+              "ACS": 242,
+              "K": 20,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": 5,
+              "KAST": 0.826,
+              "ADR": 148.1,
+              "HS%": 0.333,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Raze",
+              "R1.0": 1.17,
+              "ACS": 256,
+              "K": 22,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": 5,
+              "KAST": 0.783,
+              "ADR": 161.5,
+              "HS%": 0.184,
+              "FK": 6,
+              "FD": 6,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "linus",
+              "Agent": "Tejo",
+              "R1.0": 0.931,
+              "ACS": 179,
+              "K": 15,
+              "D": 17,
+              "A": 9,
+              "PlusMinus": -2,
+              "KAST": 0.783,
+              "ADR": 108.8,
+              "HS%": 0.111,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "cassie",
+              "Agent": "Viper",
+              "R1.0": 0.844,
+              "ACS": 207,
+              "K": 16,
+              "D": 19,
+              "A": 5,
+              "PlusMinus": -3,
+              "KAST": 0.565,
+              "ADR": 137.9,
+              "HS%": 0.224,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pearl",
+      "score1": 1,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "EPY",
+          "teamName": "Team Entropy",
+          "players": [
+            {
+              "Player": "blitz",
+              "Agent": "Neon",
+              "R1.0": 1.051,
+              "ACS": 313,
+              "K": 15,
+              "D": 14,
+              "A": 2,
+              "PlusMinus": 1,
+              "KAST": 0.857,
+              "ADR": 168.7,
+              "HS%": 0.217,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "apple",
+              "Agent": "Vyse",
+              "R1.0": 0.797,
+              "ACS": 205,
+              "K": 8,
+              "D": 13,
+              "A": 7,
+              "PlusMinus": -5,
+              "KAST": 0.714,
+              "ADR": 137.4,
+              "HS%": 0.122,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "solar",
+              "Agent": "Astra",
+              "R1.0": 0.486,
+              "ACS": 155,
+              "K": 6,
+              "D": 14,
+              "A": 5,
+              "PlusMinus": -8,
+              "KAST": 0.5,
+              "ADR": 108.7,
+              "HS%": 0.286,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "robohobo",
+              "Agent": "Phoenix",
+              "R1.0": 0.297,
+              "ACS": 124,
+              "K": 6,
+              "D": 14,
+              "A": 0,
+              "PlusMinus": -8,
+              "KAST": 0.429,
+              "ADR": 74.9,
+              "HS%": 0.15,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "jolly",
+              "Agent": "Fade",
+              "R1.0": 0.115,
+              "ACS": 39,
+              "K": 2,
+              "D": 13,
+              "A": 2,
+              "PlusMinus": -11,
+              "KAST": 0.5,
+              "ADR": 18.0,
+              "HS%": 0.167,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "NAVI",
+          "teamName": "No Actual Valorant Intelligence",
+          "players": [
+            {
+              "Player": "linus",
+              "Agent": "Phoenix",
+              "R1.0": 1.992,
+              "ACS": 374,
+              "K": 19,
+              "D": 6,
+              "A": 8,
+              "PlusMinus": 13,
+              "KAST": 0.929,
+              "ADR": 235.9,
+              "HS%": 0.169,
+              "FK": 4,
+              "FD": 0,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "stingray",
+              "Agent": "Chamber",
+              "R1.0": 1.73,
+              "ACS": 308,
+              "K": 17,
+              "D": 6,
+              "A": 2,
+              "PlusMinus": 11,
+              "KAST": 0.857,
+              "ADR": 210.6,
+              "HS%": 0.227,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "masao",
+              "Agent": "Sova",
+              "R1.0": 1.559,
+              "ACS": 216,
+              "K": 13,
+              "D": 5,
+              "A": 7,
+              "PlusMinus": 8,
+              "KAST": 0.929,
+              "ADR": 138.6,
+              "HS%": 0.125,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Astra",
+              "R1.0": 1.082,
+              "ACS": 139,
+              "K": 8,
+              "D": 7,
+              "A": 8,
+              "PlusMinus": 1,
+              "KAST": 0.786,
+              "ADR": 87.1,
+              "HS%": 0.208,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "cassie",
+              "Agent": "Jett",
+              "R1.0": 0.96,
+              "ACS": 225,
+              "K": 11,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": -2,
+              "KAST": 0.786,
+              "ADR": 153.1,
+              "HS%": 0.27,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=VhAPMQRpA64"
+}

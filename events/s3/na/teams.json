@@ -1,0 +1,114 @@
+{
+    "T1": {
+        "name": "Team 1",
+        "abbr": "T1",
+        "logo": "/icons/s3_teams/na/Team 1.png",
+        "group": "Group Alpha",
+        "players": ["MrCrocMan", "Pi", "Ceiliuir", "radical", "roro"]
+    },
+    "FNC": {
+        "name": "cow paulo FaN Club",
+        "abbr": "FNC",
+        "logo": "/icons/s3_teams/na/cow paulo FaN Club.png",
+        "group": "Group Alpha",
+        "players": ["james", "niboos", "li", "adeline", "xixi"]
+    },
+    "TL": {
+        "name": "Team Dyslexia",
+        "abbr": "TL",
+        "logo": "/icons/s3_teams/na/Team Dyslexia.png",
+        "group": "Group Alpha",
+        "players": ["haych", "caleb", "ender", "slow", "tans"]
+    },
+    "SSG": {
+        "name": "Squirtle Squad Gaming",
+        "abbr": "SSG",
+        "logo": "/icons/s3_teams/na/Squirtle Squad Gaming.png",
+        "group": "Group Alpha",
+        "players": ["colt", "aleks", "darshan", "nameless", "cardamom"]
+    },
+    "IHOP": {
+        "name": "I Hate Odin Party",
+        "abbr": "IHOP",
+        "logo": "/icons/s3_teams/na/I Hate Odin Party.png",
+        "group": "Group Alpha",
+        "players": ["pavel", "eve", "platinum", "ethan", "maple"]
+    },
+    "RRQ": {
+        "name": "Rage Re-Queuers",
+        "abbr": "RRQ",
+        "logo": "/icons/s3_teams/na/Rage Re-Queuers.png",
+        "group": "Group Alpha",
+        "players": ["angus", "snowfall", "platy", "twon", "tery"]
+    },
+    "FSG": {
+        "name": "Furry Squirrels Gaming",
+        "abbr": "FSG",
+        "logo": "/icons/s3_teams/na/Furry Squirrels Gaming.png",
+        "group": "Group Alpha",
+        "players": ["amara", "nolan", "skye", "rudra", "corina"]
+    },
+    "C9": {
+        "name": "Clown9",
+        "abbr": "C9",
+        "logo": "/icons/s3_teams/na/Clown9.png",
+        "group": "Group Alpha",
+        "players": ["claps", "art", "igneous", "makya", "caesparz"]
+    },
+    "SRB": {
+        "name": "Sunshine and Rainbows",
+        "abbr": "SRB",
+        "logo": "/icons/s3_teams/na/Sunshine and Rainbows.png",
+        "group": "Group Omega",
+        "players": ["izz", "jaypee", "nova", "androobee", "timothy"]
+    },
+    "BAKA": {
+        "name": "Beautiful and Kinda Adorable",
+        "abbr": "BAKA",
+        "logo": "/icons/s3_teams/na/Beautiful and Kinda Adorable.png",
+        "group": "Group Omega",
+        "players": ["lucas", "night", "asher", "devil", "tenyaku"]
+    },
+    "TS": {
+        "name": "Team Slugshow",
+        "abbr": "TS",
+        "logo": "/icons/s3_teams/na/Team Slugshow.png",
+        "group": "Group Omega",
+        "players": ["straight", "avi", "dino", "lore", "pants"]
+    },
+    "NAVI": {
+        "name": "No Actual Valorant Intelligence",
+        "abbr": "NAVI",
+        "logo": "/icons/s3_teams/na/No Actual Valorant Intelligence.png",
+        "group": "Group Omega",
+        "players": ["stingray", "Lazy", "kaydeg", "cassie", "linus"]
+    },
+    "EPY": {
+        "name": "Team Entropy",
+        "abbr": "EPY",
+        "logo": "/icons/s3_teams/na/Team Entropy.png",
+        "group": "Group Omega",
+        "players": ["blitz", "solar", "apple", "robohobo", "jolly"]
+    },
+    "100T": {
+        "name": "100 Tony's",
+        "abbr": "100T",
+        "logo": "/icons/s3_teams/na/100 Tony's.png",
+        "group": "Group Omega",
+        "players": ["abstracq", "psyclone", "shadow", "xyn", "catsmeow"]
+    },
+    "DFM": {
+        "name": "Dementia Found Me",
+        "abbr": "DFM",
+        "logo": "/icons/s3_teams/na/Dementia Found Me.png",
+        "group": "Group Omega",
+        "players": ["masao", "nik", "longclaw", "hascan", "teklo"]
+    },
+    "SPG": {
+        "name": "Spank Ptheory Gaming",
+        "abbr": "SPG",
+        "logo": "/icons/s3_teams/na/Spank Ptheory Gaming.png",
+        "group": "Group Omega",
+        "players": ["thighs", "cooleo", "derpina", "phuzzy", "dunkn"]
+    }
+}

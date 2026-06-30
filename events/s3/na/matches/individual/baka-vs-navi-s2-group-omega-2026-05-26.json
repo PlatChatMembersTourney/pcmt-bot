@@ -1,0 +1,755 @@
+{
+  "id": "baka-vs-navi-s2-group-omega-2026-05-26",
+  "team1": "BAKA",
+  "team2": "NAVI",
+  "team1Name": "Beautiful and Kinda Adorable",
+  "team2Name": "No Actual Valorant Intelligence",
+  "score1": 0,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-05-26T02:00:00Z",
+  "stage": "Group Omega",
+  "veto": "NAVI bans Fracture, BAKA bans Pearl, NAVI picks Breeze, BAKA picks Lotus, NAVI bans Split, BAKA bans Haven, Ascent remains",
+  "maps": [
+    {
+      "name": "Breeze",
+      "score1": 3,
+      "score2": 13
+    },
+    {
+      "name": "Lotus",
+      "score1": 11,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "BAKA",
+      "teamName": "Beautiful and Kinda Adorable",
+      "players": [
+        {
+          "Player": "lucas",
+          "R1.0": 0.896,
+          "ACS": 244,
+          "K": 33,
+          "D": 37,
+          "A": 5,
+          "PlusMinus": -4,
+          "KAST": 0.625,
+          "ADR": 165.5,
+          "HS%": 0.233,
+          "FK": 7,
+          "FD": 8,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "tenyaku",
+          "R1.0": 0.896,
+          "ACS": 192,
+          "K": 31,
+          "D": 32,
+          "A": 7,
+          "PlusMinus": -1,
+          "KAST": 0.675,
+          "ADR": 122.4,
+          "HS%": 0.212,
+          "FK": 2,
+          "FD": 5,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "asher",
+          "R1.0": 0.83,
+          "ACS": 204,
+          "K": 28,
+          "D": 34,
+          "A": 9,
+          "PlusMinus": -6,
+          "KAST": 0.65,
+          "ADR": 128.3,
+          "HS%": 0.225,
+          "FK": 2,
+          "FD": 1,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "devil",
+          "R1.0": 0.608,
+          "ACS": 130,
+          "K": 17,
+          "D": 32,
+          "A": 8,
+          "PlusMinus": -15,
+          "KAST": 0.625,
+          "ADR": 87.7,
+          "HS%": 0.201,
+          "FK": 2,
+          "FD": 5,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "night",
+          "R1.0": 0.529,
+          "ACS": 134,
+          "K": 15,
+          "D": 35,
+          "A": 10,
+          "PlusMinus": -20,
+          "KAST": 0.475,
+          "ADR": 107.2,
+          "HS%": 0.274,
+          "FK": 2,
+          "FD": 6,
+          "PlusMinus2": -4
+        }
+      ]
+    },
+    {
+      "team": "NAVI",
+      "teamName": "No Actual Valorant Intelligence",
+      "players": [
+        {
+          "Player": "stingray",
+          "R1.0": 1.596,
+          "ACS": 313,
+          "K": 45,
+          "D": 23,
+          "A": 11,
+          "PlusMinus": 22,
+          "KAST": 0.85,
+          "ADR": 216.4,
+          "HS%": 0.256,
+          "FK": 10,
+          "FD": 3,
+          "PlusMinus2": 7
+        },
+        {
+          "Player": "linus",
+          "R1.0": 1.211,
+          "ACS": 204,
+          "K": 28,
+          "D": 22,
+          "A": 21,
+          "PlusMinus": 6,
+          "KAST": 0.825,
+          "ADR": 127.1,
+          "HS%": 0.182,
+          "FK": 1,
+          "FD": 4,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "Lazy",
+          "R1.0": 1.162,
+          "ACS": 201,
+          "K": 30,
+          "D": 25,
+          "A": 11,
+          "PlusMinus": 5,
+          "KAST": 0.875,
+          "ADR": 139.3,
+          "HS%": 0.194,
+          "FK": 3,
+          "FD": 3,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "cassie",
+          "R1.0": 1.162,
+          "ACS": 234,
+          "K": 36,
+          "D": 28,
+          "A": 10,
+          "PlusMinus": 8,
+          "KAST": 0.75,
+          "ADR": 150.4,
+          "HS%": 0.225,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "kaydeg",
+          "R1.0": 1.13,
+          "ACS": 233,
+          "K": 31,
+          "D": 27,
+          "A": 8,
+          "PlusMinus": 4,
+          "KAST": 0.825,
+          "ADR": 151.2,
+          "HS%": 0.232,
+          "FK": 8,
+          "FD": 3,
+          "PlusMinus2": 5
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Breeze",
+      "score1": 3,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "BAKA",
+          "teamName": "Beautiful and Kinda Adorable",
+          "players": [
+            {
+              "Player": "asher",
+              "Agent": "Omen",
+              "R1.0": 0.862,
+              "ACS": 238,
+              "K": 14,
+              "D": 14,
+              "A": 0,
+              "PlusMinus": 0,
+              "KAST": 0.625,
+              "ADR": 135.1,
+              "HS%": 0.146,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "tenyaku",
+              "Agent": "Sova",
+              "R1.0": 0.749,
+              "ACS": 146,
+              "K": 10,
+              "D": 11,
+              "A": 2,
+              "PlusMinus": -1,
+              "KAST": 0.562,
+              "ADR": 75.8,
+              "HS%": 0.16,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "night",
+              "Agent": "Viper",
+              "R1.0": 0.569,
+              "ACS": 160,
+              "K": 7,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": -8,
+              "KAST": 0.5,
+              "ADR": 122.4,
+              "HS%": 0.268,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "lucas",
+              "Agent": "Reyna",
+              "R1.0": 0.465,
+              "ACS": 154,
+              "K": 8,
+              "D": 16,
+              "A": 1,
+              "PlusMinus": -8,
+              "KAST": 0.5,
+              "ADR": 111.9,
+              "HS%": 0.25,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "devil",
+              "Agent": "Jett",
+              "R1.0": 0.195,
+              "ACS": 69,
+              "K": 2,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": -13,
+              "KAST": 0.375,
+              "ADR": 57.2,
+              "HS%": 0.118,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            }
+          ]
+        },
+        {
+          "team": "NAVI",
+          "teamName": "No Actual Valorant Intelligence",
+          "players": [
+            {
+              "Player": "stingray",
+              "Agent": "Harbor",
+              "R1.0": 1.603,
+              "ACS": 338,
+              "K": 19,
+              "D": 10,
+              "A": 4,
+              "PlusMinus": 9,
+              "KAST": 0.875,
+              "ADR": 221.8,
+              "HS%": 0.295,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "cassie",
+              "Agent": "Cypher",
+              "R1.0": 1.444,
+              "ACS": 313,
+              "K": 19,
+              "D": 11,
+              "A": 2,
+              "PlusMinus": 8,
+              "KAST": 0.688,
+              "ADR": 214.7,
+              "HS%": 0.286,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Lazy",
+              "Agent": "Sova",
+              "R1.0": 1.303,
+              "ACS": 168,
+              "K": 11,
+              "D": 6,
+              "A": 1,
+              "PlusMinus": 5,
+              "KAST": 0.938,
+              "ADR": 133.9,
+              "HS%": 0.184,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Jett",
+              "R1.0": 1.301,
+              "ACS": 222,
+              "K": 13,
+              "D": 8,
+              "A": 1,
+              "PlusMinus": 5,
+              "KAST": 0.938,
+              "ADR": 149.0,
+              "HS%": 0.333,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "linus",
+              "Agent": "Astra",
+              "R1.0": 1.229,
+              "ACS": 174,
+              "K": 9,
+              "D": 6,
+              "A": 7,
+              "PlusMinus": 3,
+              "KAST": 0.812,
+              "ADR": 113.2,
+              "HS%": 0.303,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lotus",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "BAKA",
+          "teamName": "Beautiful and Kinda Adorable",
+          "players": [
+            {
+              "Player": "lucas",
+              "Agent": "Raze",
+              "R1.0": 1.183,
+              "ACS": 304,
+              "K": 25,
+              "D": 21,
+              "A": 4,
+              "PlusMinus": 4,
+              "KAST": 0.708,
+              "ADR": 201.2,
+              "HS%": 0.221,
+              "FK": 5,
+              "FD": 4,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "tenyaku",
+              "Agent": "Vyse",
+              "R1.0": 0.995,
+              "ACS": 222,
+              "K": 21,
+              "D": 21,
+              "A": 5,
+              "PlusMinus": 0,
+              "KAST": 0.75,
+              "ADR": 153.5,
+              "HS%": 0.246,
+              "FK": 1,
+              "FD": 4,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "devil",
+              "Agent": "Fade",
+              "R1.0": 0.883,
+              "ACS": 171,
+              "K": 15,
+              "D": 17,
+              "A": 3,
+              "PlusMinus": -2,
+              "KAST": 0.792,
+              "ADR": 108.1,
+              "HS%": 0.256,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "asher",
+              "Agent": "Omen",
+              "R1.0": 0.809,
+              "ACS": 181,
+              "K": 14,
+              "D": 20,
+              "A": 9,
+              "PlusMinus": -6,
+              "KAST": 0.667,
+              "ADR": 123.7,
+              "HS%": 0.277,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "night",
+              "Agent": "Viper",
+              "R1.0": 0.502,
+              "ACS": 116,
+              "K": 8,
+              "D": 20,
+              "A": 5,
+              "PlusMinus": -12,
+              "KAST": 0.458,
+              "ADR": 97.0,
+              "HS%": 0.278,
+              "FK": 1,
+              "FD": 5,
+              "PlusMinus2": -4
+            }
+          ]
+        },
+        {
+          "team": "NAVI",
+          "teamName": "No Actual Valorant Intelligence",
+          "players": [
+            {
+              "Player": "stingray",
+              "Agent": "Chamber",
+              "R1.0": 1.592,
+              "ACS": 296,
+              "K": 26,
+              "D": 13,
+              "A": 7,
+              "PlusMinus": 13,
+              "KAST": 0.833,
+              "ADR": 212.8,
+              "HS%": 0.23,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "linus",
+              "Agent": "Omen",
+              "R1.0": 1.199,
+              "ACS": 224,
+              "K": 19,
+              "D": 16,
+              "A": 14,
+              "PlusMinus": 3,
+              "KAST": 0.833,
+              "ADR": 136.3,
+              "HS%": 0.101,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Lazy",
+              "Agent": "Clove",
+              "R1.0": 1.069,
+              "ACS": 223,
+              "K": 19,
+              "D": 19,
+              "A": 10,
+              "PlusMinus": 0,
+              "KAST": 0.833,
+              "ADR": 142.9,
+              "HS%": 0.2,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "kaydeg",
+              "Agent": "Raze",
+              "R1.0": 1.016,
+              "ACS": 240,
+              "K": 18,
+              "D": 19,
+              "A": 7,
+              "PlusMinus": -1,
+              "KAST": 0.75,
+              "ADR": 152.7,
+              "HS%": 0.165,
+              "FK": 7,
+              "FD": 2,
+              "PlusMinus2": 5
+            },
+            {
+              "Player": "cassie",
+              "Agent": "Fade",
+              "R1.0": 0.975,
+              "ACS": 182,
+              "K": 17,
+              "D": 17,
+              "A": 8,
+              "PlusMinus": 0,
+              "KAST": 0.792,
+              "ADR": 107.5,
+              "HS%": 0.184,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=D1wPTtuhtoc"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "s1-emea",
+  "name": "PCMT Season 1 -- EMEA",
+  "shortName": "S1 EMEA",
+  "season": 1,
+  "region": "emea",
+  "path": "s1/emea",
+  "stages": ["Group Stage"],
+  "statsFormat": "json",
+  "statsTabs": {
+    "player": ["Angus", "toxic"],
+    "team": ["toxic"]
+  },
+  "sheetStats": {
+    "Angus": {
+      "sheetId": "1HcMZipSQR5rltC8clF71cwYuY4Ce6QmToyzOuZvwjlw",
+      "gid": "821526300"
+    }
+  },
+  "brackets": {
+    "playoffs": {
+        "stageFilter": "playoff",
+        "openingLabel": "Semifinal",
+        "seeds": {
+            "opening1": ["TEAM_A", "TEAM_B"],
+            "opening2": ["TEAM_C", "TEAM_D"]
+        },
+        "hasGrandFinal": true
+    }
+}
+}

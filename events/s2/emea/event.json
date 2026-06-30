@@ -1,0 +1,86 @@
+{
+  "id": "s2-emea",
+  "name": "PCMT Season 2 -- EMEA",
+  "shortName": "S2 EMEA",
+  "season": 2,
+  "region": "emea",
+  "path": "s2/emea",
+  "stages": ["Group Stage"],
+  "statsFormat": "json",
+  "statsTabs": {
+    "player": ["Angus", "toxic"],
+    "team": ["toxic"]
+  },
+  "sheetStats": {
+    "Angus": {
+      "sheetId": "1XNc5ymI5h1iRYNirQRflA8qPFYwXCTE58T2tLhLkt2s",
+      "gid": "821526300"
+    }
+  },
+  "brackets": {
+  "playoffs": {
+    "stageFilter": "playoff",
+    "type": "double-elimination",
+    "hasGrandFinal": true,
+    "grandFinalReset": false,
+    "upper": [
+      {
+        "round": "UB Round 1",
+        "matches": [
+          { "id": "M1", "team1": "A2", "team2": "B3", "winnerTo": "M3", "loserTo": "M8" },
+          { "id": "M2", "team1": "B2", "team2": "A3", "winnerTo": "M4", "loserTo": "M9" }
+        ]
+      },
+      {
+        "round": "UB Round 2",
+        "matches": [
+          { "id": "M3", "team1": "B1", "team2": "W1", "winnerTo": "M5", "loserTo": "M11" },
+          { "id": "M4", "team1": "A1", "team2": "W2", "winnerTo": "M5", "loserTo": "M10" }
+        ]
+      },
+      {
+        "round": "UB Final",
+        "matches": [
+          { "id": "M5", "team1": "W3", "team2": "W4", "winnerTo": "GF", "loserTo": "M13" }
+        ]
+      }
+    ],
+    "lower": [
+      {
+        "round": "LB Round 1",
+        "matches": [
+          { "id": "M6", "team1": "A4", "team2": "B5", "winnerTo": "M8" },
+          { "id": "M7", "team1": "B4", "team2": "A5", "winnerTo": "M9" }
+        ]
+      },
+      {
+        "round": "LB Round 2",
+        "matches": [
+          { "id": "M8", "team1": "L1", "team2": "W6", "winnerTo": "M10" },
+          { "id": "M9", "team1": "L2", "team2": "W7", "winnerTo": "M11" }
+        ]
+      },
+      {
+        "round": "LB Round 3",
+        "matches": [
+          { "id": "M10", "team1": "L4", "team2": "W8", "winnerTo": "M12" },
+          { "id": "M11", "team1": "L3", "team2": "W9", "winnerTo": "M12" }
+        ]
+      },
+      {
+        "round": "LB Round 4",
+        "matches": [
+          { "id": "M12", "team1": "W10", "team2": "W11", "winnerTo": "M13" }
+        ]
+      },
+      {
+        "round": "LB Final",
+        "matches": [
+          { "id": "M13", "team1": "L5", "team2": "W12", "winnerTo": "GF" }
+        ]
+      }
+    ],
+    "grandFinal": { "id": "GF", "team1": "W5", "team2": "W13" }
+  }
+}
+}

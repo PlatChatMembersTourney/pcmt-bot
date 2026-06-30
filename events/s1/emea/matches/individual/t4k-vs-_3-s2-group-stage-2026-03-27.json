@@ -1,0 +1,1051 @@
+{
+  "id": "t4k-vs-<3-s2-group-stage-2026-03-27",
+  "team1": "T4K",
+  "team2": "<3",
+  "team1Name": "Team FourK",
+  "team2Name": "Less Than Three",
+  "score1": 2,
+  "score2": 1,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-03-27",
+  "stage": "Group Stage",
+  "veto": "T4K bans Breeze, <3 bans Fracture, T4K picks Lotus, <3 picks Split, T4K bans Bind, <3 bans Pearl,  remains Haven",
+  "maps": [
+    {
+      "name": "Lotus",
+      "score1": 5,
+      "score2": 13
+    },
+    {
+      "name": "Split",
+      "score1": 13,
+      "score2": 11
+    },
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 7
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "T4K",
+      "teamName": "Team FourK",
+      "players": [
+        {
+          "Player": "night",
+          "R1.0": 1.436,
+          "ACS": 338,
+          "K": 75,
+          "D": 48,
+          "A": 16,
+          "PlusMinus": 27,
+          "KAST": 0.855,
+          "ADR": 204.0,
+          "HS%": 0.243,
+          "FK": 14,
+          "FD": 9,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "Kramvi",
+          "R1.0": 1.054,
+          "ACS": 200,
+          "K": 44,
+          "D": 43,
+          "A": 22,
+          "PlusMinus": 1,
+          "KAST": 0.774,
+          "ADR": 133.9,
+          "HS%": 0.259,
+          "FK": 2,
+          "FD": 4,
+          "PlusMinus2": -2
+        },
+        {
+          "Player": "dovie",
+          "R1.0": 1.003,
+          "ACS": 206,
+          "K": 48,
+          "D": 44,
+          "A": 15,
+          "PlusMinus": 4,
+          "KAST": 0.662,
+          "ADR": 129.2,
+          "HS%": 0.349,
+          "FK": 10,
+          "FD": 9,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "thornyy",
+          "R1.0": 0.999,
+          "ACS": 193,
+          "K": 39,
+          "D": 45,
+          "A": 32,
+          "PlusMinus": -6,
+          "KAST": 0.79,
+          "ADR": 124.2,
+          "HS%": 0.118,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "linus",
+          "R1.0": 0.818,
+          "ACS": 172,
+          "K": 31,
+          "D": 47,
+          "A": 19,
+          "PlusMinus": -16,
+          "KAST": 0.71,
+          "ADR": 120.2,
+          "HS%": 0.122,
+          "FK": 1,
+          "FD": 2,
+          "PlusMinus2": -1
+        }
+      ]
+    },
+    {
+      "team": "<3",
+      "teamName": "Less Than Three",
+      "players": [
+        {
+          "Player": "Ani",
+          "R1.0": 1.283,
+          "ACS": 248,
+          "K": 56,
+          "D": 40,
+          "A": 25,
+          "PlusMinus": 16,
+          "KAST": 0.774,
+          "ADR": 162.0,
+          "HS%": 0.222,
+          "FK": 4,
+          "FD": 5,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "Ride",
+          "R1.0": 1.252,
+          "ACS": 260,
+          "K": 57,
+          "D": 41,
+          "A": 18,
+          "PlusMinus": 16,
+          "KAST": 0.693,
+          "ADR": 171.9,
+          "HS%": 0.323,
+          "FK": 6,
+          "FD": 10,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "Yessi",
+          "R1.0": 0.905,
+          "ACS": 207,
+          "K": 43,
+          "D": 48,
+          "A": 8,
+          "PlusMinus": -5,
+          "KAST": 0.629,
+          "ADR": 144.7,
+          "HS%": 0.161,
+          "FK": 4,
+          "FD": 4,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "Snowfall",
+          "R1.0": 0.866,
+          "ACS": 232,
+          "K": 48,
+          "D": 56,
+          "A": 9,
+          "PlusMinus": -8,
+          "KAST": 0.694,
+          "ADR": 146.6,
+          "HS%": 0.218,
+          "FK": 16,
+          "FD": 9,
+          "PlusMinus2": 7
+        },
+        {
+          "Player": "Pengu",
+          "R1.0": 0.671,
+          "ACS": 127,
+          "K": 23,
+          "D": 52,
+          "A": 49,
+          "PlusMinus": -29,
+          "KAST": 0.726,
+          "ADR": 71.7,
+          "HS%": 0.139,
+          "FK": 1,
+          "FD": 3,
+          "PlusMinus2": -2
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Lotus",
+      "score1": 5,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T4K",
+          "teamName": "Team FourK",
+          "players": [
+            {
+              "Player": "night",
+              "Agent": "Neon",
+              "R1.0": 1.495,
+              "ACS": 385,
+              "K": 25,
+              "D": 15,
+              "A": 2,
+              "PlusMinus": 10,
+              "KAST": 0.889,
+              "ADR": 217.7,
+              "HS%": 0.26,
+              "FK": 6,
+              "FD": 3,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "thornyy",
+              "Agent": "Veto",
+              "R1.0": 0.785,
+              "ACS": 182,
+              "K": 10,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.722,
+              "ADR": 127.1,
+              "HS%": 0.125,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "dovie",
+              "Agent": "Omen",
+              "R1.0": 0.569,
+              "ACS": 144,
+              "K": 9,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": -7,
+              "KAST": 0.556,
+              "ADR": 93.2,
+              "HS%": 0.367,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "Kramvi",
+              "Agent": "Fade",
+              "R1.0": 0.551,
+              "ACS": 133,
+              "K": 8,
+              "D": 16,
+              "A": 4,
+              "PlusMinus": -8,
+              "KAST": 0.667,
+              "ADR": 84.4,
+              "HS%": 0.389,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "linus",
+              "Agent": "Skye",
+              "R1.0": 0.509,
+              "ACS": 122,
+              "K": 4,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": -11,
+              "KAST": 0.556,
+              "ADR": 100.7,
+              "HS%": 0.143,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "<3",
+          "teamName": "Less Than Three",
+          "players": [
+            {
+              "Player": "Ani",
+              "Agent": "Breach",
+              "R1.0": 1.922,
+              "ACS": 316,
+              "K": 22,
+              "D": 6,
+              "A": 10,
+              "PlusMinus": 16,
+              "KAST": 0.889,
+              "ADR": 211.1,
+              "HS%": 0.171,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Ride",
+              "Agent": "Fade",
+              "R1.0": 1.754,
+              "ACS": 354,
+              "K": 22,
+              "D": 8,
+              "A": 8,
+              "PlusMinus": 14,
+              "KAST": 0.722,
+              "ADR": 213.4,
+              "HS%": 0.333,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Yessi",
+              "Agent": "Killjoy",
+              "R1.0": 1.027,
+              "ACS": 191,
+              "K": 13,
+              "D": 12,
+              "A": 1,
+              "PlusMinus": 1,
+              "KAST": 0.778,
+              "ADR": 137.8,
+              "HS%": 0.178,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Snowfall",
+              "Agent": "Neon",
+              "R1.0": 0.84,
+              "ACS": 216,
+              "K": 13,
+              "D": 16,
+              "A": 3,
+              "PlusMinus": -3,
+              "KAST": 0.722,
+              "ADR": 137.3,
+              "HS%": 0.233,
+              "FK": 5,
+              "FD": 3,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Pengu",
+              "Agent": "Omen",
+              "R1.0": 0.663,
+              "ACS": 100,
+              "K": 7,
+              "D": 14,
+              "A": 13,
+              "PlusMinus": -7,
+              "KAST": 0.778,
+              "ADR": 43.0,
+              "HS%": 0.125,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Split",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T4K",
+          "teamName": "Team FourK",
+          "players": [
+            {
+              "Player": "night",
+              "Agent": "Neon",
+              "R1.0": 1.33,
+              "ACS": 311,
+              "K": 27,
+              "D": 19,
+              "A": 6,
+              "PlusMinus": 8,
+              "KAST": 0.833,
+              "ADR": 189.6,
+              "HS%": 0.188,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Kramvi",
+              "Agent": "Astra",
+              "R1.0": 1.32,
+              "ACS": 242,
+              "K": 21,
+              "D": 15,
+              "A": 12,
+              "PlusMinus": 6,
+              "KAST": 0.833,
+              "ADR": 159.9,
+              "HS%": 0.16,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "thornyy",
+              "Agent": "Skye",
+              "R1.0": 1.14,
+              "ACS": 217,
+              "K": 17,
+              "D": 17,
+              "A": 17,
+              "PlusMinus": 0,
+              "KAST": 0.875,
+              "ADR": 129.0,
+              "HS%": 0.078,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "dovie",
+              "Agent": "Viper",
+              "R1.0": 1.024,
+              "ACS": 197,
+              "K": 18,
+              "D": 15,
+              "A": 3,
+              "PlusMinus": 3,
+              "KAST": 0.667,
+              "ADR": 123.7,
+              "HS%": 0.39,
+              "FK": 6,
+              "FD": 4,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "linus",
+              "Agent": "Raze",
+              "R1.0": 0.883,
+              "ACS": 189,
+              "K": 14,
+              "D": 18,
+              "A": 5,
+              "PlusMinus": -4,
+              "KAST": 0.75,
+              "ADR": 129.3,
+              "HS%": 0.115,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "<3",
+          "teamName": "Less Than Three",
+          "players": [
+            {
+              "Player": "Yessi",
+              "Agent": "Viper",
+              "R1.0": 1.048,
+              "ACS": 255,
+              "K": 21,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": 3,
+              "KAST": 0.5,
+              "ADR": 170.4,
+              "HS%": 0.187,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "Ride",
+              "Agent": "Fade",
+              "R1.0": 1.036,
+              "ACS": 215,
+              "K": 20,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": 2,
+              "KAST": 0.708,
+              "ADR": 144.6,
+              "HS%": 0.271,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "Ani",
+              "Agent": "Skye",
+              "R1.0": 0.9,
+              "ACS": 196,
+              "K": 16,
+              "D": 19,
+              "A": 9,
+              "PlusMinus": -3,
+              "KAST": 0.708,
+              "ADR": 122.3,
+              "HS%": 0.155,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "Snowfall",
+              "Agent": "Raze",
+              "R1.0": 0.836,
+              "ACS": 233,
+              "K": 18,
+              "D": 22,
+              "A": 4,
+              "PlusMinus": -4,
+              "KAST": 0.667,
+              "ADR": 145.8,
+              "HS%": 0.212,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "Pengu",
+              "Agent": "Miks",
+              "R1.0": 0.811,
+              "ACS": 144,
+              "K": 9,
+              "D": 20,
+              "A": 28,
+              "PlusMinus": -11,
+              "KAST": 0.792,
+              "ADR": 82.4,
+              "HS%": 0.133,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 13,
+      "score2": 7,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "T4K",
+          "teamName": "Team FourK",
+          "players": [
+            {
+              "Player": "night",
+              "Agent": "Phoenix",
+              "R1.0": 1.511,
+              "ACS": 328,
+              "K": 23,
+              "D": 14,
+              "A": 8,
+              "PlusMinus": 9,
+              "KAST": 0.85,
+              "ADR": 209.0,
+              "HS%": 0.294,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "dovie",
+              "Agent": "Cypher",
+              "R1.0": 1.367,
+              "ACS": 274,
+              "K": 21,
+              "D": 13,
+              "A": 8,
+              "PlusMinus": 8,
+              "KAST": 0.75,
+              "ADR": 168.2,
+              "HS%": 0.283,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Kramvi",
+              "Agent": "Sova",
+              "R1.0": 1.186,
+              "ACS": 210,
+              "K": 15,
+              "D": 12,
+              "A": 6,
+              "PlusMinus": 3,
+              "KAST": 0.8,
+              "ADR": 147.2,
+              "HS%": 0.262,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "thornyy",
+              "Agent": "Omen",
+              "R1.0": 1.023,
+              "ACS": 173,
+              "K": 12,
+              "D": 13,
+              "A": 11,
+              "PlusMinus": -1,
+              "KAST": 0.75,
+              "ADR": 115.8,
+              "HS%": 0.16,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "linus",
+              "Agent": "Neon",
+              "R1.0": 1.016,
+              "ACS": 196,
+              "K": 13,
+              "D": 14,
+              "A": 8,
+              "PlusMinus": -1,
+              "KAST": 0.8,
+              "ADR": 126.8,
+              "HS%": 0.111,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "<3",
+          "teamName": "Less Than Three",
+          "players": [
+            {
+              "Player": "Ani",
+              "Agent": "Sova",
+              "R1.0": 1.168,
+              "ACS": 249,
+              "K": 18,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 3,
+              "KAST": 0.75,
+              "ADR": 165.3,
+              "HS%": 0.348,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "Ride",
+              "Agent": "Phoenix",
+              "R1.0": 1.059,
+              "ACS": 229,
+              "K": 15,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 0,
+              "KAST": 0.65,
+              "ADR": 167.4,
+              "HS%": 0.375,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Snowfall",
+              "Agent": "Neon",
+              "R1.0": 0.925,
+              "ACS": 245,
+              "K": 17,
+              "D": 18,
+              "A": 2,
+              "PlusMinus": -1,
+              "KAST": 0.7,
+              "ADR": 155.8,
+              "HS%": 0.211,
+              "FK": 6,
+              "FD": 4,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "Yessi",
+              "Agent": "Cypher",
+              "R1.0": 0.624,
+              "ACS": 164,
+              "K": 9,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": -9,
+              "KAST": 0.65,
+              "ADR": 120.2,
+              "HS%": 0.114,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "Pengu",
+              "Agent": "Astra",
+              "R1.0": 0.51,
+              "ACS": 131,
+              "K": 7,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": -11,
+              "KAST": 0.6,
+              "ADR": 84.6,
+              "HS%": 0.158,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=oF6MdVEAd0M"
+}

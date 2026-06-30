@@ -1,0 +1,790 @@
+{
+  "id": "fsg-vs-c9-s2-group-stage-2026-05-14",
+  "team1": "FSG",
+  "team2": "C9",
+  "team1Name": "Furry Squirrels Gaming",
+  "team2Name": "Clown9",
+  "score1": 2,
+  "score2": 0,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-05-14T00:00:00Z",
+  "stage": "Group Alpha",
+  "veto": "C9 bans Breeze, FSG bans Fracture, C9 picks Lotus, FSG picks Ascent, C9 bans Pearl, FSG bans Haven, Split remains",
+  "maps": [
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 10
+    },
+    {
+      "name": "Ascent",
+      "score1": 13,
+      "score2": 11
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "FSG",
+      "teamName": "Furry Squirrels Gaming",
+      "players": [
+        {
+          "Player": "amara",
+          "R1.0": 1.163,
+          "ACS": 231,
+          "K": 38,
+          "D": 29,
+          "A": 18,
+          "PlusMinus": 9,
+          "KAST": 0.702,
+          "ADR": 135.8,
+          "HS%": 0.141,
+          "FK": 8,
+          "FD": 3,
+          "PlusMinus2": 5
+        },
+        {
+          "Player": "nolan",
+          "R1.0": 1.106,
+          "ACS": 209,
+          "K": 35,
+          "D": 30,
+          "A": 5,
+          "PlusMinus": 5,
+          "KAST": 0.723,
+          "ADR": 157.0,
+          "HS%": 0.252,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "rudra",
+          "R1.0": 0.951,
+          "ACS": 170,
+          "K": 27,
+          "D": 34,
+          "A": 25,
+          "PlusMinus": -7,
+          "KAST": 0.766,
+          "ADR": 117.6,
+          "HS%": 0.331,
+          "FK": 3,
+          "FD": 2,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "corina",
+          "R1.0": 0.892,
+          "ACS": 182,
+          "K": 31,
+          "D": 33,
+          "A": 15,
+          "PlusMinus": -2,
+          "KAST": 0.596,
+          "ADR": 108.7,
+          "HS%": 0.259,
+          "FK": 9,
+          "FD": 6,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "skye",
+          "R1.0": 0.871,
+          "ACS": 191,
+          "K": 30,
+          "D": 37,
+          "A": 11,
+          "PlusMinus": -7,
+          "KAST": 0.681,
+          "ADR": 131.6,
+          "HS%": 0.232,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        }
+      ]
+    },
+    {
+      "team": "C9",
+      "teamName": "Clown9",
+      "players": [
+        {
+          "Player": "claps",
+          "R1.0": 1.24,
+          "ACS": 277,
+          "K": 44,
+          "D": 34,
+          "A": 13,
+          "PlusMinus": 10,
+          "KAST": 0.745,
+          "ADR": 179.9,
+          "HS%": 0.234,
+          "FK": 8,
+          "FD": 11,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "art",
+          "R1.0": 1.231,
+          "ACS": 254,
+          "K": 45,
+          "D": 29,
+          "A": 7,
+          "PlusMinus": 16,
+          "KAST": 0.638,
+          "ADR": 159.7,
+          "HS%": 0.239,
+          "FK": 6,
+          "FD": 7,
+          "PlusMinus2": -1
+        },
+        {
+          "Player": "igneous",
+          "R1.0": 0.98,
+          "ACS": 187,
+          "K": 28,
+          "D": 32,
+          "A": 19,
+          "PlusMinus": -4,
+          "KAST": 0.788,
+          "ADR": 118.5,
+          "HS%": 0.082,
+          "FK": 5,
+          "FD": 4,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "makya",
+          "R1.0": 0.884,
+          "ACS": 155,
+          "K": 24,
+          "D": 32,
+          "A": 22,
+          "PlusMinus": -8,
+          "KAST": 0.702,
+          "ADR": 103.7,
+          "HS%": 0.261,
+          "FK": 0,
+          "FD": 4,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "caesparz",
+          "R1.0": 0.678,
+          "ACS": 123,
+          "K": 22,
+          "D": 34,
+          "A": 8,
+          "PlusMinus": -12,
+          "KAST": 0.659,
+          "ADR": 78.3,
+          "HS%": 0.102,
+          "FK": 1,
+          "FD": 1,
+          "PlusMinus2": 0
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Lotus",
+      "score1": 13,
+      "score2": 10,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "FSG",
+          "teamName": "Furry Squirrels Gaming",
+          "players": [
+            {
+              "Player": "amara",
+              "Agent": "Fade",
+              "R1.0": 1.335,
+              "ACS": 266,
+              "K": 22,
+              "D": 14,
+              "A": 12,
+              "PlusMinus": 8,
+              "KAST": 0.783,
+              "ADR": 146.3,
+              "HS%": 0.175,
+              "FK": 7,
+              "FD": 1,
+              "PlusMinus2": 6
+            },
+            {
+              "Player": "corina",
+              "Agent": "Skye",
+              "R1.0": 1.069,
+              "ACS": 200,
+              "K": 17,
+              "D": 15,
+              "A": 13,
+              "PlusMinus": 2,
+              "KAST": 0.652,
+              "ADR": 115.1,
+              "HS%": 0.262,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "skye",
+              "Agent": "Raze",
+              "R1.0": 1.024,
+              "ACS": 237,
+              "K": 18,
+              "D": 19,
+              "A": 8,
+              "PlusMinus": -1,
+              "KAST": 0.696,
+              "ADR": 162.5,
+              "HS%": 0.149,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "rudra",
+              "Agent": "Omen",
+              "R1.0": 0.909,
+              "ACS": 147,
+              "K": 11,
+              "D": 16,
+              "A": 15,
+              "PlusMinus": -5,
+              "KAST": 0.652,
+              "ADR": 115.4,
+              "HS%": 0.213,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "nolan",
+              "Agent": "Killjoy",
+              "R1.0": 0.894,
+              "ACS": 148,
+              "K": 11,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -4,
+              "KAST": 0.739,
+              "ADR": 127.3,
+              "HS%": 0.26,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        },
+        {
+          "team": "C9",
+          "teamName": "Clown9",
+          "players": [
+            {
+              "Player": "claps",
+              "Agent": "Raze",
+              "R1.0": 1.497,
+              "ACS": 333,
+              "K": 25,
+              "D": 17,
+              "A": 11,
+              "PlusMinus": 8,
+              "KAST": 0.87,
+              "ADR": 221.2,
+              "HS%": 0.18,
+              "FK": 5,
+              "FD": 6,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "art",
+              "Agent": "Chamber",
+              "R1.0": 1.316,
+              "ACS": 276,
+              "K": 25,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": 10,
+              "KAST": 0.652,
+              "ADR": 173.4,
+              "HS%": 0.22,
+              "FK": 4,
+              "FD": 4,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "igneous",
+              "Agent": "Fade",
+              "R1.0": 0.889,
+              "ACS": 154,
+              "K": 11,
+              "D": 15,
+              "A": 11,
+              "PlusMinus": -4,
+              "KAST": 0.783,
+              "ADR": 91.8,
+              "HS%": 0.062,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "makya",
+              "Agent": "Omen",
+              "R1.0": 0.762,
+              "ACS": 133,
+              "K": 10,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": -6,
+              "KAST": 0.739,
+              "ADR": 87.3,
+              "HS%": 0.3,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "caesparz",
+              "Agent": "Vyse",
+              "R1.0": 0.647,
+              "ACS": 104,
+              "K": 8,
+              "D": 16,
+              "A": 6,
+              "PlusMinus": -8,
+              "KAST": 0.739,
+              "ADR": 64.3,
+              "HS%": 0.121,
+              "FK": 0,
+              "FD": 0,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ascent",
+      "score1": 13,
+      "score2": 11,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 12,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 1,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "FSG",
+          "teamName": "Furry Squirrels Gaming",
+          "players": [
+            {
+              "Player": "nolan",
+              "Agent": "Killjoy",
+              "R1.0": 1.309,
+              "ACS": 267,
+              "K": 24,
+              "D": 15,
+              "A": 1,
+              "PlusMinus": 9,
+              "KAST": 0.708,
+              "ADR": 185.5,
+              "HS%": 0.244,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "amara",
+              "Agent": "Sova",
+              "R1.0": 0.999,
+              "ACS": 198,
+              "K": 16,
+              "D": 15,
+              "A": 6,
+              "PlusMinus": 1,
+              "KAST": 0.625,
+              "ADR": 125.7,
+              "HS%": 0.109,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "rudra",
+              "Agent": "Omen",
+              "R1.0": 0.992,
+              "ACS": 192,
+              "K": 16,
+              "D": 18,
+              "A": 10,
+              "PlusMinus": -2,
+              "KAST": 0.875,
+              "ADR": 119.8,
+              "HS%": 0.444,
+              "FK": 3,
+              "FD": 1,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "skye",
+              "Agent": "Jett",
+              "R1.0": 0.724,
+              "ACS": 146,
+              "K": 12,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": -6,
+              "KAST": 0.667,
+              "ADR": 102.0,
+              "HS%": 0.312,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "corina",
+              "Agent": "Skye",
+              "R1.0": 0.723,
+              "ACS": 164,
+              "K": 14,
+              "D": 18,
+              "A": 2,
+              "PlusMinus": -4,
+              "KAST": 0.542,
+              "ADR": 102.5,
+              "HS%": 0.256,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            }
+          ]
+        },
+        {
+          "team": "C9",
+          "teamName": "Clown9",
+          "players": [
+            {
+              "Player": "art",
+              "Agent": "Chamber",
+              "R1.0": 1.15,
+              "ACS": 233,
+              "K": 20,
+              "D": 14,
+              "A": 3,
+              "PlusMinus": 6,
+              "KAST": 0.625,
+              "ADR": 146.6,
+              "HS%": 0.257,
+              "FK": 2,
+              "FD": 3,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "igneous",
+              "Agent": "Sova",
+              "R1.0": 1.066,
+              "ACS": 219,
+              "K": 17,
+              "D": 17,
+              "A": 8,
+              "PlusMinus": 0,
+              "KAST": 0.792,
+              "ADR": 144.0,
+              "HS%": 0.101,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "makya",
+              "Agent": "Omen",
+              "R1.0": 1.0,
+              "ACS": 176,
+              "K": 14,
+              "D": 16,
+              "A": 15,
+              "PlusMinus": -2,
+              "KAST": 0.667,
+              "ADR": 119.5,
+              "HS%": 0.224,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "claps",
+              "Agent": "Jett",
+              "R1.0": 0.993,
+              "ACS": 223,
+              "K": 19,
+              "D": 17,
+              "A": 2,
+              "PlusMinus": 2,
+              "KAST": 0.625,
+              "ADR": 140.3,
+              "HS%": 0.286,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "caesparz",
+              "Agent": "Vyse",
+              "R1.0": 0.708,
+              "ACS": 142,
+              "K": 14,
+              "D": 18,
+              "A": 2,
+              "PlusMinus": -4,
+              "KAST": 0.583,
+              "ADR": 91.7,
+              "HS%": 0.083,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=FGoQ5WF1kLs"
+}

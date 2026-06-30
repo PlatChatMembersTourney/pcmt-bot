@@ -1,0 +1,1086 @@
+{
+  "id": "srb-vs-baka-s2-group-omega-2026-05-31",
+  "team1": "SRB",
+  "team2": "BAKA",
+  "team1Name": "Sunshine and Rainbows",
+  "team2Name": "Beautiful and Kinda Adorable",
+  "score1": 1,
+  "score2": 2,
+  "completed": true,
+  "bestOf": 3,
+  "date": "2026-05-31T02:00:00Z",
+  "stage": "Group Omega",
+  "veto": "SRB bans Fracture, BAKA bans Breeze, SRB picks Ascent, BAKA picks Haven, SRB bans Lotus, BAKA bans Split, Pearl remains",
+  "maps": [
+    {
+      "name": "Ascent",
+      "score1": 13,
+      "score2": 10
+    },
+    {
+      "name": "Haven",
+      "score1": 11,
+      "score2": 13
+    },
+    {
+      "name": "Pearl",
+      "score1": 9,
+      "score2": 13
+    }
+  ],
+  "combinedStats": [
+    {
+      "team": "SRB",
+      "teamName": "Sunshine and Rainbows",
+      "players": [
+        {
+          "Player": "izz",
+          "R1.0": 1.553,
+          "ACS": 350,
+          "K": 81,
+          "D": 47,
+          "A": 23,
+          "PlusMinus": 34,
+          "KAST": 0.783,
+          "ADR": 228.4,
+          "HS%": 0.219,
+          "FK": 11,
+          "FD": 3,
+          "PlusMinus2": 8
+        },
+        {
+          "Player": "jaypee",
+          "R1.0": 1.073,
+          "ACS": 246,
+          "K": 59,
+          "D": 53,
+          "A": 15,
+          "PlusMinus": 6,
+          "KAST": 0.667,
+          "ADR": 161.5,
+          "HS%": 0.258,
+          "FK": 13,
+          "FD": 12,
+          "PlusMinus2": 1
+        },
+        {
+          "Player": "androobee",
+          "R1.0": 0.864,
+          "ACS": 179,
+          "K": 43,
+          "D": 51,
+          "A": 15,
+          "PlusMinus": -8,
+          "KAST": 0.696,
+          "ADR": 114.9,
+          "HS%": 0.325,
+          "FK": 8,
+          "FD": 8,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "nova",
+          "R1.0": 0.835,
+          "ACS": 154,
+          "K": 32,
+          "D": 47,
+          "A": 25,
+          "PlusMinus": -15,
+          "KAST": 0.667,
+          "ADR": 108.8,
+          "HS%": 0.183,
+          "FK": 1,
+          "FD": 5,
+          "PlusMinus2": -4
+        },
+        {
+          "Player": "timothy",
+          "R1.0": 0.803,
+          "ACS": 142,
+          "K": 29,
+          "D": 50,
+          "A": 38,
+          "PlusMinus": -21,
+          "KAST": 0.71,
+          "ADR": 98.1,
+          "HS%": 0.161,
+          "FK": 3,
+          "FD": 5,
+          "PlusMinus2": -2
+        }
+      ]
+    },
+    {
+      "team": "BAKA",
+      "teamName": "Beautiful and Kinda Adorable",
+      "players": [
+        {
+          "Player": "lucas",
+          "R1.0": 1.306,
+          "ACS": 285,
+          "K": 66,
+          "D": 47,
+          "A": 16,
+          "PlusMinus": 19,
+          "KAST": 0.754,
+          "ADR": 190.0,
+          "HS%": 0.246,
+          "FK": 7,
+          "FD": 7,
+          "PlusMinus2": 0
+        },
+        {
+          "Player": "tenyaku",
+          "R1.0": 1.139,
+          "ACS": 236,
+          "K": 58,
+          "D": 47,
+          "A": 11,
+          "PlusMinus": 11,
+          "KAST": 0.725,
+          "ADR": 158.9,
+          "HS%": 0.278,
+          "FK": 10,
+          "FD": 7,
+          "PlusMinus2": 3
+        },
+        {
+          "Player": "asher",
+          "R1.0": 1.036,
+          "ACS": 220,
+          "K": 51,
+          "D": 50,
+          "A": 15,
+          "PlusMinus": 1,
+          "KAST": 0.623,
+          "ADR": 162.4,
+          "HS%": 0.326,
+          "FK": 6,
+          "FD": 4,
+          "PlusMinus2": 2
+        },
+        {
+          "Player": "night",
+          "R1.0": 1.008,
+          "ACS": 202,
+          "K": 47,
+          "D": 50,
+          "A": 29,
+          "PlusMinus": -3,
+          "KAST": 0.725,
+          "ADR": 132.9,
+          "HS%": 0.331,
+          "FK": 4,
+          "FD": 7,
+          "PlusMinus2": -3
+        },
+        {
+          "Player": "devil",
+          "R1.0": 0.578,
+          "ACS": 108,
+          "K": 26,
+          "D": 51,
+          "A": 11,
+          "PlusMinus": -25,
+          "KAST": 0.609,
+          "ADR": 70.8,
+          "HS%": 0.126,
+          "FK": 6,
+          "FD": 11,
+          "PlusMinus2": -5
+        }
+      ]
+    }
+  ],
+  "mapDetails": [
+    {
+      "name": "Ascent",
+      "score1": 13,
+      "score2": 10,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk"
+        }
+      ],
+      "stats": [
+        {
+          "team": "SRB",
+          "teamName": "Sunshine and Rainbows",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": "Phoenix",
+              "R1.0": 1.525,
+              "ACS": 347,
+              "K": 27,
+              "D": 15,
+              "A": 5,
+              "PlusMinus": 12,
+              "KAST": 0.739,
+              "ADR": 223.3,
+              "HS%": 0.235,
+              "FK": 5,
+              "FD": 1,
+              "PlusMinus2": 4
+            },
+            {
+              "Player": "jaypee",
+              "Agent": "Neon",
+              "R1.0": 1.255,
+              "ACS": 266,
+              "K": 20,
+              "D": 16,
+              "A": 7,
+              "PlusMinus": 4,
+              "KAST": 0.739,
+              "ADR": 189.1,
+              "HS%": 0.211,
+              "FK": 4,
+              "FD": 2,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "nova",
+              "Agent": "Omen",
+              "R1.0": 1.142,
+              "ACS": 209,
+              "K": 15,
+              "D": 15,
+              "A": 13,
+              "PlusMinus": 0,
+              "KAST": 0.783,
+              "ADR": 147.0,
+              "HS%": 0.207,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "timothy",
+              "Agent": "Sova",
+              "R1.0": 0.908,
+              "ACS": 140,
+              "K": 11,
+              "D": 15,
+              "A": 12,
+              "PlusMinus": -4,
+              "KAST": 0.783,
+              "ADR": 95.7,
+              "HS%": 0.231,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Vyse",
+              "R1.0": 0.851,
+              "ACS": 173,
+              "K": 14,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -3,
+              "KAST": 0.739,
+              "ADR": 103.8,
+              "HS%": 0.412,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            }
+          ]
+        },
+        {
+          "team": "BAKA",
+          "teamName": "Beautiful and Kinda Adorable",
+          "players": [
+            {
+              "Player": "lucas",
+              "Agent": "Phoenix",
+              "R1.0": 1.232,
+              "ACS": 271,
+              "K": 20,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 4,
+              "KAST": 0.826,
+              "ADR": 176.7,
+              "HS%": 0.246,
+              "FK": 3,
+              "FD": 2,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "night",
+              "Agent": "Omen",
+              "R1.0": 1.178,
+              "ACS": 256,
+              "K": 19,
+              "D": 17,
+              "A": 11,
+              "PlusMinus": 2,
+              "KAST": 0.783,
+              "ADR": 161.6,
+              "HS%": 0.352,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "tenyaku",
+              "Agent": "Neon",
+              "R1.0": 1.038,
+              "ACS": 220,
+              "K": 18,
+              "D": 16,
+              "A": 5,
+              "PlusMinus": 2,
+              "KAST": 0.609,
+              "ADR": 145.7,
+              "HS%": 0.295,
+              "FK": 2,
+              "FD": 5,
+              "PlusMinus2": -3
+            },
+            {
+              "Player": "asher",
+              "Agent": "Vyse",
+              "R1.0": 0.66,
+              "ACS": 164,
+              "K": 13,
+              "D": 18,
+              "A": 3,
+              "PlusMinus": -5,
+              "KAST": 0.435,
+              "ADR": 101.9,
+              "HS%": 0.282,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "devil",
+              "Agent": "Fade",
+              "R1.0": 0.461,
+              "ACS": 105,
+              "K": 8,
+              "D": 20,
+              "A": 5,
+              "PlusMinus": -12,
+              "KAST": 0.652,
+              "ADR": 65.1,
+              "HS%": 0.062,
+              "FK": 0,
+              "FD": 1,
+              "PlusMinus2": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haven",
+      "score1": 11,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 4,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 19,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 20,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 23,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 24,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "SRB",
+          "teamName": "Sunshine and Rainbows",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": "Phoenix",
+              "R1.0": 1.544,
+              "ACS": 319,
+              "K": 27,
+              "D": 16,
+              "A": 9,
+              "PlusMinus": 11,
+              "KAST": 0.792,
+              "ADR": 225.5,
+              "HS%": 0.284,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "jaypee",
+              "Agent": "Neon",
+              "R1.0": 1.082,
+              "ACS": 284,
+              "K": 25,
+              "D": 20,
+              "A": 2,
+              "PlusMinus": 5,
+              "KAST": 0.583,
+              "ADR": 169.8,
+              "HS%": 0.315,
+              "FK": 5,
+              "FD": 7,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Cypher",
+              "R1.0": 0.808,
+              "ACS": 192,
+              "K": 16,
+              "D": 19,
+              "A": 2,
+              "PlusMinus": -3,
+              "KAST": 0.583,
+              "ADR": 127.6,
+              "HS%": 0.306,
+              "FK": 3,
+              "FD": 3,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "timothy",
+              "Agent": "Sova",
+              "R1.0": 0.607,
+              "ACS": 132,
+              "K": 8,
+              "D": 20,
+              "A": 10,
+              "PlusMinus": -12,
+              "KAST": 0.667,
+              "ADR": 93.8,
+              "HS%": 0.167,
+              "FK": 1,
+              "FD": 0,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "nova",
+              "Agent": "Omen",
+              "R1.0": 0.561,
+              "ACS": 104,
+              "K": 7,
+              "D": 18,
+              "A": 8,
+              "PlusMinus": -11,
+              "KAST": 0.542,
+              "ADR": 79.0,
+              "HS%": 0.229,
+              "FK": 1,
+              "FD": 1,
+              "PlusMinus2": 0
+            }
+          ]
+        },
+        {
+          "team": "BAKA",
+          "teamName": "Beautiful and Kinda Adorable",
+          "players": [
+            {
+              "Player": "night",
+              "Agent": "Omen",
+              "R1.0": 1.388,
+              "ACS": 245,
+              "K": 22,
+              "D": 13,
+              "A": 12,
+              "PlusMinus": 9,
+              "KAST": 0.708,
+              "ADR": 164.4,
+              "HS%": 0.424,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "tenyaku",
+              "Agent": "Cypher",
+              "R1.0": 1.208,
+              "ACS": 269,
+              "K": 23,
+              "D": 18,
+              "A": 4,
+              "PlusMinus": 5,
+              "KAST": 0.75,
+              "ADR": 180.8,
+              "HS%": 0.275,
+              "FK": 3,
+              "FD": 0,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "lucas",
+              "Agent": "Jett",
+              "R1.0": 1.193,
+              "ACS": 266,
+              "K": 22,
+              "D": 17,
+              "A": 5,
+              "PlusMinus": 5,
+              "KAST": 0.667,
+              "ADR": 176.1,
+              "HS%": 0.27,
+              "FK": 2,
+              "FD": 4,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "asher",
+              "Agent": "Phoenix",
+              "R1.0": 1.071,
+              "ACS": 248,
+              "K": 18,
+              "D": 19,
+              "A": 6,
+              "PlusMinus": -1,
+              "KAST": 0.667,
+              "ADR": 189.0,
+              "HS%": 0.296,
+              "FK": 2,
+              "FD": 2,
+              "PlusMinus2": 0
+            },
+            {
+              "Player": "devil",
+              "Agent": "Sova",
+              "R1.0": 0.584,
+              "ACS": 107,
+              "K": 8,
+              "D": 16,
+              "A": 2,
+              "PlusMinus": -8,
+              "KAST": 0.542,
+              "ADR": 72.9,
+              "HS%": 0.192,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pearl",
+      "score1": 9,
+      "score2": 13,
+      "rounds": [
+        {
+          "round": 1,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 2,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 3,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 4,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 5,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 6,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 7,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 8,
+          "winner": 1,
+          "side": "def"
+        },
+        {
+          "round": 9,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 10,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 11,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 12,
+          "winner": 2,
+          "side": "atk"
+        },
+        {
+          "round": 13,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 14,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 15,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 16,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 17,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 18,
+          "winner": 1,
+          "side": "atk"
+        },
+        {
+          "round": 19,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 20,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 21,
+          "winner": 2,
+          "side": "def"
+        },
+        {
+          "round": 22,
+          "winner": 2,
+          "side": "def"
+        }
+      ],
+      "stats": [
+        {
+          "team": "SRB",
+          "teamName": "Sunshine and Rainbows",
+          "players": [
+            {
+              "Player": "izz",
+              "Agent": "Phoenix",
+              "R1.0": 1.592,
+              "ACS": 387,
+              "K": 27,
+              "D": 16,
+              "A": 9,
+              "PlusMinus": 11,
+              "KAST": 0.818,
+              "ADR": 237.0,
+              "HS%": 0.131,
+              "FK": 4,
+              "FD": 1,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "androobee",
+              "Agent": "Astra",
+              "R1.0": 0.937,
+              "ACS": 171,
+              "K": 13,
+              "D": 15,
+              "A": 7,
+              "PlusMinus": -2,
+              "KAST": 0.773,
+              "ADR": 112.7,
+              "HS%": 0.256,
+              "FK": 1,
+              "FD": 2,
+              "PlusMinus2": -1
+            },
+            {
+              "Player": "timothy",
+              "Agent": "Fade",
+              "R1.0": 0.909,
+              "ACS": 154,
+              "K": 10,
+              "D": 15,
+              "A": 16,
+              "PlusMinus": -5,
+              "KAST": 0.682,
+              "ADR": 105.2,
+              "HS%": 0.082,
+              "FK": 1,
+              "FD": 3,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "jaypee",
+              "Agent": "Neon",
+              "R1.0": 0.872,
+              "ACS": 183,
+              "K": 14,
+              "D": 17,
+              "A": 6,
+              "PlusMinus": -3,
+              "KAST": 0.682,
+              "ADR": 123.6,
+              "HS%": 0.246,
+              "FK": 4,
+              "FD": 3,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "nova",
+              "Agent": "Vyse",
+              "R1.0": 0.814,
+              "ACS": 150,
+              "K": 10,
+              "D": 14,
+              "A": 4,
+              "PlusMinus": -4,
+              "KAST": 0.682,
+              "ADR": 101.4,
+              "HS%": 0.109,
+              "FK": 0,
+              "FD": 3,
+              "PlusMinus2": -3
+            }
+          ]
+        },
+        {
+          "team": "BAKA",
+          "teamName": "Beautiful and Kinda Adorable",
+          "players": [
+            {
+              "Player": "lucas",
+              "Agent": "Phoenix",
+              "R1.0": 1.506,
+              "ACS": 319,
+              "K": 24,
+              "D": 14,
+              "A": 6,
+              "PlusMinus": 10,
+              "KAST": 0.773,
+              "ADR": 219.1,
+              "HS%": 0.22,
+              "FK": 2,
+              "FD": 1,
+              "PlusMinus2": 1
+            },
+            {
+              "Player": "asher",
+              "Agent": "Jett",
+              "R1.0": 1.39,
+              "ACS": 249,
+              "K": 20,
+              "D": 13,
+              "A": 6,
+              "PlusMinus": 7,
+              "KAST": 0.773,
+              "ADR": 196.6,
+              "HS%": 0.404,
+              "FK": 2,
+              "FD": 0,
+              "PlusMinus2": 2
+            },
+            {
+              "Player": "tenyaku",
+              "Agent": "Chamber",
+              "R1.0": 1.169,
+              "ACS": 217,
+              "K": 17,
+              "D": 13,
+              "A": 2,
+              "PlusMinus": 4,
+              "KAST": 0.818,
+              "ADR": 148.9,
+              "HS%": 0.265,
+              "FK": 5,
+              "FD": 2,
+              "PlusMinus2": 3
+            },
+            {
+              "Player": "devil",
+              "Agent": "Fade",
+              "R1.0": 0.693,
+              "ACS": 113,
+              "K": 10,
+              "D": 15,
+              "A": 4,
+              "PlusMinus": -5,
+              "KAST": 0.636,
+              "ADR": 74.5,
+              "HS%": 0.121,
+              "FK": 3,
+              "FD": 5,
+              "PlusMinus2": -2
+            },
+            {
+              "Player": "night",
+              "Agent": "Clove",
+              "R1.0": 0.416,
+              "ACS": 99,
+              "K": 6,
+              "D": 20,
+              "A": 6,
+              "PlusMinus": -14,
+              "KAST": 0.682,
+              "ADR": 68.5,
+              "HS%": 0.207,
+              "FK": 0,
+              "FD": 2,
+              "PlusMinus2": -2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "streamLink": "https://www.youtube.com/watch?v=ClSxmF2Rw78"
+}
