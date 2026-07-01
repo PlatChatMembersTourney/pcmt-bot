@@ -2,7 +2,8 @@ import json
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EVENTS_DIR = os.path.join(BASE_DIR, "events")
+# Save into the new Astro site's data tree (pcmt2/src/data)
+EVENTS_DIR = os.path.normpath(os.path.join(BASE_DIR, "..", "pcmt2", "src", "data"))
 
 FORMATS = {"BO1": 1, "BO3": 3, "BO5": 5}
 
@@ -22,7 +23,8 @@ def list_regions():
         if not os.path.isdir(sp):
             continue
         for region in os.listdir(sp):
-            if os.path.isdir(os.path.join(sp, region)):
+            # A real event folder has an event.json (skips icons/, etc.)
+            if os.path.exists(os.path.join(sp, region, "event.json")):
                 regions.add(region)
     return sorted(regions)
 
@@ -34,7 +36,7 @@ def list_seasons(region):
     seasons = []
     for season in sorted(os.listdir(EVENTS_DIR)):
         sp = os.path.join(EVENTS_DIR, season)
-        if os.path.isdir(sp) and os.path.isdir(os.path.join(sp, region)):
+        if os.path.exists(os.path.join(sp, region, "event.json")):
             seasons.append(season)
     return seasons
 
@@ -73,7 +75,9 @@ def load_teams(region, season):
 
 
 def matches_dir(region, season):
-    return os.path.join(event_dir(region, season), "matches")
+    # Individual per-match files live in matches/individual/; the combined
+    # matches.json (written by build.py) sits one level up in matches/.
+    return os.path.join(event_dir(region, season), "matches", "individual")
 
 
 def match_file_path(region, season, match_id):

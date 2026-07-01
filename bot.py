@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 
 import match
+import delete
 from data_helpers import list_regions
 from timezone import TZ_OFFSETS, set_user_tz
 from dropdown import UpcomingView
@@ -56,6 +57,11 @@ async def upcoming(interaction: discord.Interaction):
 @bot.tree.command(name="match", description="Fill in a played game from tracker links")
 async def match_cmd(interaction: discord.Interaction):
     await match.start(interaction)
+
+
+@bot.tree.command(name="delete", description="Delete a scheduled game that hasn't been played")
+async def delete_cmd(interaction: discord.Interaction):
+    await delete.start(interaction)
 
 
 bot.run(os.getenv("DISCORD_TOKEN"))

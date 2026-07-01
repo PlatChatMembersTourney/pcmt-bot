@@ -137,7 +137,6 @@ class DateModal(discord.ui.Modal, title="Match date & time"):
                 f"**{match['team1Name']}** vs **{match['team2Name']}**\n"
                 f"{v.stage} | {v.fmt} | {date_iso} (entered as {v.tz})\n"
                 f"{v.region.upper()} / {v.season}, id `{match['id']}`\n"
-                f"Saved to events/{v.region}/{v.season}/matches.json{build_note}"
             ),
             view=None)
 

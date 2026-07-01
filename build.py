@@ -9,17 +9,13 @@ from collections import defaultdict
 from data_helpers import EVENTS_DIR as BOT_EVENTS_DIR
 from agents import generate_agent_stats
 
-# Bot layout (current): events/<region>/<season>/, individual match files flat
-# in matches/, combined matches.json in the season folder.
-# To target the website later, set:
-#   EVENTS_DIR = r"D:/PCMT/pcmt/data/events"
-#   SEASON_FIRST = True                  (events/<season>/<region>/)
-#   INDIVIDUAL_SUBDIR = "individual"     (matches/individual/<id>.json)
-#   MATCHES_JSON_IN_MATCHES_DIR = True   (matches/matches.json)
+# Targets the new Astro site (pcmt2/src/data); EVENTS_DIR follows data_helpers.
+# Layout: <season>/<region>/, individual match files in matches/individual/,
+# combined matches.json in matches/matches.json, derived stats in the season folder.
 EVENTS_DIR = BOT_EVENTS_DIR
 SEASON_FIRST = True
-INDIVIDUAL_SUBDIR = None
-MATCHES_JSON_IN_MATCHES_DIR = False
+INDIVIDUAL_SUBDIR = "individual"
+MATCHES_JSON_IN_MATCHES_DIR = True
 
 ALL_MAPS = [
     "Abyss", "Ascent", "Bind", "Breeze", "Corrode", "Fracture", "Haven",
@@ -58,6 +54,9 @@ def discover_events():
             if not os.path.isdir(os.path.join(outer_path, inner)):
                 continue
             region, season = (inner, outer) if SEASON_FIRST else (outer, inner)
+            # Only real events have an event.json (skips icons/, etc.)
+            if not os.path.exists(os.path.join(season_dir(region, season), "event.json")):
+                continue
             out.append((region, season))
     return out
 
