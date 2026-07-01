@@ -228,7 +228,10 @@ def build_round_timeline(raw_rounds, t1_color):
         else:
             atk = atk_start if ((n - 25) // 2) % 2 == 0 else ("Blue" if atk_start == "Red" else "Red")
         side = "atk" if wc == atk else "def"
-        timeline.append({"round": n, "winner": winner, "side": side})
+        timeline.append({
+            "round": n, "winner": winner, "side": side,
+            "endType": rnd.get("end_type", ""),
+        })
     return timeline
 
 
