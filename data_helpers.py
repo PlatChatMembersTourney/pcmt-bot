@@ -1,9 +1,44 @@
 import json
 import os
+import subprocess
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Save into the new Astro site's data tree (pcmt2/src/data)
 EVENTS_DIR = os.path.normpath(os.path.join(BASE_DIR, "..", "pcmt2", "src", "data"))
+# Root of the pcmt2 git repo (two levels up from src/data).
+REPO_DIR = os.path.normpath(os.path.join(EVENTS_DIR, "..", ".."))
+
+
+def git_sync(message):
+    """Stage src/data, commit, and push to the pcmt2 repo so the site updates.
+    Best-effort: returns "" on success / nothing-to-commit, or a short note on
+    failure (so callers can surface it without crashing the command)."""
+    env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}  # never block on a credential prompt
+
+    def run(*args, check=True):
+        return subprocess.run(["git", "-C", REPO_DIR, *args],
+                              check=check, capture_output=True, text=True, env=env)
+
+    try:
+        run("add", "src/data")
+        # Nothing staged -> nothing to do.
+        if run("diff", "--cached", "--quiet", check=False).returncode == 0:
+            return ""
+        run("commit", "-m", message)
+        # Reconcile with commits pushed from elsewhere before pushing. Abort the
+        # rebase on conflict so the repo is never left in a half-rebased state.
+        try:
+            run("pull", "--rebase")
+        except subprocess.CalledProcessError:
+            run("rebase", "--abort", check=False)
+            raise
+        run("push")
+        return ""
+    except subprocess.CalledProcessError as e:
+        out = (e.stderr or e.stdout or "").strip()
+        print(f"git sync failed: {out or e}")
+        last = out.splitlines()[-1] if out else str(e)
+        return f"\n(git sync failed: {last})"
 
 FORMATS = {"BO1": 1, "BO3": 3, "BO5": 5}
 

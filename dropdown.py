@@ -4,6 +4,7 @@ from datetime import datetime
 from data_helpers import (
     FORMATS,
     list_regions, list_seasons, list_stages, load_teams, save_upcoming_match,
+    git_sync,
 )
 from timezone import TZ_OFFSETS, get_user_tz, set_user_tz, local_to_utc_iso
 from build import build_event
@@ -129,6 +130,7 @@ class DateModal(discord.ui.Modal, title="Match date & time"):
         except Exception as e:
             build_note = f"\n(build failed: {e})"
             print(f"build failed for {v.region}/{v.season}: {e}")
+        build_note += git_sync(f"bot: add upcoming {match['id']} ({v.region}/{v.season})")
 
         v.stop()
         await interaction.response.edit_message(content="Upcoming game created ✅", view=None)

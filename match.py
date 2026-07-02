@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 from data_helpers import (
     BASE_DIR, list_regions, list_seasons, load_teams, load_matches,
-    match_file_path, matches_dir,
+    match_file_path, matches_dir, git_sync,
 )
 from build import build_event
 
@@ -500,6 +500,7 @@ class LinksModal(discord.ui.Modal, title="Tracker links"):
         except Exception as e:
             build_note = f"\nBuild failed: {e}"
             print(f"build failed for {v.region}/{v.season}: {e}")
+        build_note += git_sync(f"bot: add match {match['id']} ({v.region}/{v.season})")
 
         lines = [
             f"Saved **{match['team1Name']} {match['score1']} - {match['score2']} {match['team2Name']}**",

@@ -3,7 +3,7 @@ import os
 import discord
 
 from data_helpers import (
-    list_regions, list_seasons, load_matches, match_file_path,
+    list_regions, list_seasons, load_matches, match_file_path, git_sync,
 )
 from build import build_event
 
@@ -67,6 +67,7 @@ class ConfirmDeleteButton(discord.ui.Button):
         except Exception as e:
             build_note = f"\n(build failed: {e})"
             print(f"build failed for {v.region}/{v.season}: {e}")
+        build_note += git_sync(f"bot: delete {m['id']} ({v.region}/{v.season})")
 
         v.stop()
         await interaction.response.edit_message(content="Match deleted ✅", view=None)
