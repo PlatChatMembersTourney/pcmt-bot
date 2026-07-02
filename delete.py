@@ -69,14 +69,12 @@ class ConfirmDeleteButton(discord.ui.Button):
             print(f"build failed for {v.region}/{v.season}: {e}")
 
         v.stop()
-        await interaction.response.edit_message(
-            content=(
-                f"Deleted **{m['team1Name']} vs {m['team2Name']}**\n"
-                f"{m.get('stage', '')} | id `{m['id']}`\n"
-                f"Removed events/{v.season}/{v.region}/matches/{m['id']}.json"
-                f"{build_note}"
-            ),
-            view=None)
+        await interaction.response.edit_message(content="Match deleted ✅", view=None)
+        await interaction.channel.send(
+            f"Deleted **{m['team1Name']} vs {m['team2Name']}**\n"
+            f"{m.get('stage', '')} | id `{m['id']}`"
+            f"{build_note}"
+        )
 
 
 class CancelButton(discord.ui.Button):
