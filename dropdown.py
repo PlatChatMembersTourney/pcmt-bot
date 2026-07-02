@@ -131,14 +131,13 @@ class DateModal(discord.ui.Modal, title="Match date & time"):
             print(f"build failed for {v.region}/{v.season}: {e}")
 
         v.stop()
-        await interaction.response.edit_message(
-            content=(
-                f"Upcoming game created.\n"
-                f"**{match['team1Name']}** vs **{match['team2Name']}**\n"
-                f"{v.stage} | {v.fmt} | {date_iso} (entered as {v.tz})\n"
-                f"{v.region.upper()} / {v.season}, id `{match['id']}`\n"
-            ),
-            view=None)
+        await interaction.response.edit_message(content="Upcoming game created ✅", view=None)
+        await interaction.channel.send(
+            f"Upcoming game created.\n"
+            f"**{match['team1Name']}** vs **{match['team2Name']}**\n"
+            f"{v.stage} | {v.fmt} | {date_iso} (entered as {v.tz})\n"
+            f"{v.region.upper()} / {v.season}, id `{match['id']}`{build_note}"
+        )
 
 
 # ---- the multi-step view ----

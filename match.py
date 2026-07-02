@@ -512,7 +512,8 @@ class LinksModal(discord.ui.Modal, title="Tracker links"):
             lines.append("Couldn't match (kept Riot name, will show as sub): " + ", ".join(unresolved))
         lines.append(build_note.strip() or "Build ran.")
 
-        await interaction.followup.send("\n".join(lines), ephemeral=True)
+        await interaction.channel.send("\n".join(lines))
+        await interaction.followup.send("Saved — posted above.", ephemeral=True)
 
 
 class TeamFirstSelect(discord.ui.Select):
