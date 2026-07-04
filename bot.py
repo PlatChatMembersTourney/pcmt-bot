@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import match
 import delete
 from data_helpers import list_regions
-from timezone import TZ_OFFSETS, set_user_tz
+from timezone import TZ_ZONES, set_user_tz
 from dropdown import UpcomingView
 
 load_dotenv()
@@ -37,7 +37,7 @@ async def ping(ctx):
 
 @bot.tree.command(name="timezone", description="Set your timezone for match scheduling")
 @app_commands.describe(zone="Your timezone")
-@app_commands.choices(zone=[app_commands.Choice(name=tz, value=tz) for tz in TZ_OFFSETS])
+@app_commands.choices(zone=[app_commands.Choice(name=tz, value=tz) for tz in TZ_ZONES])
 async def timezone(interaction: discord.Interaction, zone: app_commands.Choice[str]):
     set_user_tz(interaction.user.id, zone.value)
     await interaction.response.send_message(
