@@ -1,23 +1,14 @@
 import json
 import os
-from datetime import datetime
-from zoneinfo import ZoneInfo
+from datetime import datetime, timedelta
 
 from data_helpers import BASE_DIR
 
 USER_TZ_FILE = os.path.join(BASE_DIR, "user_tz.json")
 
-# Menu label -> IANA zone. zoneinfo applies the correct DST offset automatically
-# based on the match date, so each entry covers both codes (EST/EDT) at once.
-TZ_ZONES = {
-    "EST/EDT": "America/New_York",     # US Eastern
-    "CST/CDT": "America/Chicago",      # US Central
-    "MST/MDT": "America/Denver",       # US Mountain
-    "PST/PDT": "America/Los_Angeles",  # US Pacific
-    "GMT/BST": "Europe/London",
-    "CET/CEST": "Europe/Paris",
-    "AEST": "Australia/Brisbane",      # permanent +10, no DST
-}
+# Plain fixed UTC offsets, UTC-12 .. UTC+12. Users pick their current offset
+# directly and handle DST themselves (e.g. UTC+1 for BST, UTC+0 for GMT).
+TZ_OFFSETS = {f"UTC{h:+d}": h for h in range(-12, 13)}
 
 
 def load_user_tz_map():
@@ -29,7 +20,7 @@ def load_user_tz_map():
 
 def get_user_tz(user_id):
     tz = load_user_tz_map().get(str(user_id))
-    return tz if tz in TZ_ZONES else None
+    return tz if tz in TZ_OFFSETS else None
 
 
 def set_user_tz(user_id, tz):
@@ -40,5 +31,6 @@ def set_user_tz(user_id, tz):
 
 
 def local_to_utc_iso(d, t, tz_name):
-    local_dt = datetime.combine(d, t, tzinfo=ZoneInfo(TZ_ZONES[tz_name]))
-    return local_dt.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")
+    offset = TZ_OFFSETS[tz_name]
+    utc_dt = datetime.combine(d, t) - timedelta(hours=offset)
+    return utc_dt.strftime("%Y-%m-%dT%H:%M:%SZ")

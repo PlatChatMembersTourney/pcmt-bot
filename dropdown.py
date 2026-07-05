@@ -6,7 +6,7 @@ from data_helpers import (
     list_regions, list_seasons, list_stages, load_teams, save_upcoming_match,
     git_sync,
 )
-from timezone import TZ_ZONES, get_user_tz, set_user_tz, local_to_utc_iso
+from timezone import TZ_OFFSETS, get_user_tz, set_user_tz, local_to_utc_iso
 from build import build_event
 
 
@@ -74,7 +74,7 @@ class FormatSelect(discord.ui.Select):
 
 class TimezoneSelect(discord.ui.Select):
     def __init__(self):
-        options = [discord.SelectOption(label=tz, value=tz) for tz in TZ_ZONES][:25]
+        options = [discord.SelectOption(label=tz, value=tz) for tz in TZ_OFFSETS][:25]
         super().__init__(placeholder="Select your timezone", options=options, min_values=1, max_values=1)
 
     async def callback(self, interaction):
