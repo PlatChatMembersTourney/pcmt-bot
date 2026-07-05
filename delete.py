@@ -14,9 +14,10 @@ class RegionSelect(discord.ui.Select):
         super().__init__(placeholder="Select region", options=options)
 
     async def callback(self, interaction):
-        self.view.region = self.values[0]
-        self.view.rebuild()
-        await interaction.response.edit_message(content=self.view.prompt(), view=self.view)
+        view = self.view  # rebuild() detaches self, nulling self.view
+        view.region = self.values[0]
+        view.rebuild()
+        await interaction.response.edit_message(content=view.prompt(), view=view)
 
 
 class SeasonSelect(discord.ui.Select):
@@ -25,9 +26,10 @@ class SeasonSelect(discord.ui.Select):
         super().__init__(placeholder="Select season", options=options)
 
     async def callback(self, interaction):
-        self.view.season = self.values[0]
-        self.view.rebuild()
-        await interaction.response.edit_message(content=self.view.prompt(), view=self.view)
+        view = self.view  # rebuild() detaches self, nulling self.view
+        view.season = self.values[0]
+        view.rebuild()
+        await interaction.response.edit_message(content=view.prompt(), view=view)
 
 
 class DeleteMatchSelect(discord.ui.Select):
@@ -40,9 +42,10 @@ class DeleteMatchSelect(discord.ui.Select):
         super().__init__(placeholder="Select the game to delete", options=options)
 
     async def callback(self, interaction):
-        self.view.skeleton = self.view.upcoming_by_id[self.values[0]]
-        self.view.rebuild()
-        await interaction.response.edit_message(content=self.view.prompt(), view=self.view)
+        view = self.view  # rebuild() detaches self, nulling self.view
+        view.skeleton = view.upcoming_by_id[self.values[0]]
+        view.rebuild()
+        await interaction.response.edit_message(content=view.prompt(), view=view)
 
 
 class ConfirmDeleteButton(discord.ui.Button):

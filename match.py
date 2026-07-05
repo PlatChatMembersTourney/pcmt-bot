@@ -395,9 +395,10 @@ class RegionSelect(discord.ui.Select):
         super().__init__(placeholder="Select region", options=options)
 
     async def callback(self, interaction):
-        self.view.region = self.values[0]
-        self.view.rebuild()
-        await interaction.response.edit_message(content=self.view.prompt(), view=self.view)
+        view = self.view  # rebuild() detaches self, nulling self.view
+        view.region = self.values[0]
+        view.rebuild()
+        await interaction.response.edit_message(content=view.prompt(), view=view)
 
 
 class SeasonSelect(discord.ui.Select):
@@ -406,9 +407,10 @@ class SeasonSelect(discord.ui.Select):
         super().__init__(placeholder="Select season", options=options)
 
     async def callback(self, interaction):
-        self.view.season = self.values[0]
-        self.view.rebuild()
-        await interaction.response.edit_message(content=self.view.prompt(), view=self.view)
+        view = self.view  # rebuild() detaches self, nulling self.view
+        view.season = self.values[0]
+        view.rebuild()
+        await interaction.response.edit_message(content=view.prompt(), view=view)
 
 
 class MatchSelect(discord.ui.Select):
@@ -537,13 +539,14 @@ class VetoMapSelect(discord.ui.Select):
         super().__init__(placeholder=label, options=options)
 
     async def callback(self, interaction):
-        self.view.picks.append(self.values[0])
-        self.view.step += 1
-        self.view.rebuild()
-        if self.view.step >= len(self.view.template):
-            await interaction.response.edit_message(content=self.view.summary(), view=self.view)
+        view = self.view  # rebuild() detaches self, nulling self.view
+        view.picks.append(self.values[0])
+        view.step += 1
+        view.rebuild()
+        if view.step >= len(view.template):
+            await interaction.response.edit_message(content=view.summary(), view=view)
         else:
-            await interaction.response.edit_message(content=self.view.prompt(), view=self.view)
+            await interaction.response.edit_message(content=view.prompt(), view=view)
 
 
 class SkipVetoButton(discord.ui.Button):
@@ -569,13 +572,14 @@ class RedoVetoButton(discord.ui.Button):
         super().__init__(label="Redo veto", style=discord.ButtonStyle.secondary)
 
     async def callback(self, interaction):
-        self.view.first_team = None
-        self.view.second_team = None
-        self.view.picks = []
-        self.view.step = 0
-        self.view.veto_string = ""
-        self.view.rebuild()
-        await interaction.response.edit_message(content=self.view.prompt(), view=self.view)
+        view = self.view  # rebuild() detaches self, nulling self.view
+        view.first_team = None
+        view.second_team = None
+        view.picks = []
+        view.step = 0
+        view.veto_string = ""
+        view.rebuild()
+        await interaction.response.edit_message(content=view.prompt(), view=view)
 
 
 class VetoView(discord.ui.View):
