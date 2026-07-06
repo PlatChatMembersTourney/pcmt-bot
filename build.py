@@ -393,34 +393,29 @@ def generate_team_map_stats(event_dir, matches):
 
 
 def generate_standings(event_dir, matches):
-    completed = [m for m in matches if m.get("completed")]
-    if not completed:
-        print("  standings.json: no completed matches, skipping")
-        return
-
     teams_path = os.path.join(event_dir, "teams.json")
     teams = {}
     if os.path.exists(teams_path):
         with open(teams_path) as fp:
             teams = json.load(fp)
 
-    stages = {}
-    for m in completed:
-        stage = m.get("stage", "Unknown")
-        if stage not in stages:
-            stages[stage] = []
-        stages[stage].append(m)
+    completed = [m for m in matches if m.get("completed")]
 
-    def compute_standings(match_list, stage_name=None):
+    def full_name(abbr):
+        t = teams.get(abbr)
+        return t.get("name", abbr) if isinstance(t, dict) else abbr
+
+    def group_of(abbr):
+        t = teams.get(abbr)
+        return t.get("group") if isinstance(t, dict) else None
+
+    def compute_standings(match_list, members):
+        # Seed every team in `members` so they appear with 0s even if they
+        # haven't played yet; any match participant not in `members` is added too.
         team_stats = {}
-        for abbr in teams:
-            t = teams[abbr]
-            if stage_name and stage_name != "Overall":
-                if t.get("group") and t["group"] != stage_name:
-                    continue
+        for abbr in members:
             team_stats[abbr] = {
-                "abbr": abbr,
-                "name": t.get("name", abbr),
+                "abbr": abbr, "name": full_name(abbr),
                 "matchW": 0, "matchL": 0,
                 "mapW": 0, "mapL": 0,
                 "rndW": 0, "rndL": 0,
@@ -430,10 +425,10 @@ def generate_standings(event_dir, matches):
             t1, t2 = m.get("team1", ""), m.get("team2", "")
             s1, s2 = m.get("score1", 0), m.get("score2", 0)
 
-            for t in [t1, t2]:
+            for t in (t1, t2):
                 if t and t not in team_stats:
                     team_stats[t] = {
-                        "abbr": t, "name": t,
+                        "abbr": t, "name": full_name(t),
                         "matchW": 0, "matchL": 0,
                         "mapW": 0, "mapL": 0,
                         "rndW": 0, "rndL": 0,
@@ -477,10 +472,46 @@ def generate_standings(event_dir, matches):
 
         return rows
 
+    # Which groups exist (from teams.json) and who's in each.
+    groups = {}
+    for abbr, t in teams.items():
+        g = t.get("group") if isinstance(t, dict) else None
+        if g:
+            groups.setdefault(g, []).append(abbr)
+
     result = {}
-    result["Overall"] = compute_standings(completed, "Overall")
-    for stage, stage_matches in sorted(stages.items()):
-        result[stage] = compute_standings(stage_matches, stage)
+    # Overall: every team in the event, 0s if unplayed.
+    result["Overall"] = compute_standings(completed, list(teams))
+
+    if groups:
+        # Multi-group: one section per group, always listing all its teams.
+        # A completed match counts toward a group only if BOTH teams are in it,
+        # so a mistagged stage still lands in the right group and cross-group
+        # (playoff) matches don't pollute group standings.
+        for g_name in sorted(groups):
+            members = groups[g_name]
+            mset = set(members)
+            g_matches = [m for m in completed
+                         if m.get("team1") in mset and m.get("team2") in mset]
+            result[g_name] = compute_standings(g_matches, members)
+
+        # Non-group stages (e.g. Playoffs): cross-group completed matches,
+        # bucketed by their stage label (participants only).
+        other = {}
+        for m in completed:
+            g1, g2 = group_of(m.get("team1")), group_of(m.get("team2"))
+            if g1 and g1 == g2:
+                continue  # already counted within its group
+            other.setdefault(m.get("stage", "Unknown"), []).append(m)
+        for stage, ms in sorted(other.items()):
+            result[stage] = compute_standings(ms, [])
+    else:
+        # Single-group event: one section per match stage, all teams seeded.
+        stages = {}
+        for m in completed:
+            stages.setdefault(m.get("stage", "Unknown"), []).append(m)
+        for stage, ms in sorted(stages.items()):
+            result[stage] = compute_standings(ms, list(teams))
 
     out_path = os.path.join(event_dir, "standings.json")
     with open(out_path, "w") as fp:
