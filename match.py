@@ -159,8 +159,8 @@ def compute_rating(k, d, a, kast, adr, fk, fd, total_rounds):
     kpr, dpr, apr = k / total_rounds, d / total_rounds, a / total_rounds
     return round(
         0.898 * kpr + 0.228 * apr - 0.434 * dpr
-        + 0.0025 * (adr - 140 * kpr) + 0.434 * (1 - dpr)
-        + 0.313 * kast + 0.175, 3)
+        + 0.0025 * (adr - 140 * kpr)
+        + 0.313 * kast + 0.295, 3)
 
 
 def parse_api_match(data):
