@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 import match
 import delete
+import build_cmd
 from data_helpers import list_regions
 from timezone import TZ_OFFSETS, set_user_tz
 from dropdown import UpcomingView
@@ -62,6 +63,11 @@ async def match_cmd(interaction: discord.Interaction):
 @bot.tree.command(name="delete", description="Delete a scheduled game that hasn't been played")
 async def delete_cmd(interaction: discord.Interaction):
     await delete.start(interaction)
+
+
+@bot.tree.command(name="build", description="Rebuild a season's stats and standings from existing games")
+async def build_command(interaction: discord.Interaction):
+    await build_cmd.start(interaction)
 
 
 bot.run(os.getenv("DISCORD_TOKEN"))
