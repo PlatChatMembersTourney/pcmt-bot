@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 import match
 import delete
 import build_cmd
-from data_helpers import list_regions
+import asyncio
+from data_helpers import list_regions, git_pull_all
 from timezone import TZ_OFFSETS, set_user_tz
 from dropdown import UpcomingView
 
@@ -68,6 +69,14 @@ async def delete_cmd(interaction: discord.Interaction):
 @bot.tree.command(name="build", description="Rebuild a season's stats and standings from existing games")
 async def build_command(interaction: discord.Interaction):
     await build_cmd.start(interaction)
+
+
+@bot.tree.command(name="pull", description="Pull latest data (pcmt2) + bot code — run before /build")
+async def pull_command(interaction: discord.Interaction):
+    await interaction.response.defer(ephemeral=True, thinking=True)
+    loop = asyncio.get_running_loop()
+    summary = await loop.run_in_executor(None, git_pull_all)
+    await interaction.followup.send(f"**Pull result:**\n{summary}", ephemeral=True)
 
 
 bot.run(os.getenv("DISCORD_TOKEN"))

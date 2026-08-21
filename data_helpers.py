@@ -40,6 +40,26 @@ def git_sync(message):
         last = out.splitlines()[-1] if out else str(e)
         return f"\n(git sync failed: {last})"
 
+
+def git_pull(repo_dir):
+    """Fast-forward pull one repo. Returns (ok, one-line status)."""
+    env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
+    try:
+        r = subprocess.run(["git", "-C", repo_dir, "pull", "--ff-only"],
+                           check=True, capture_output=True, text=True, env=env)
+        out = r.stdout.strip()
+        return True, ("up to date" if "up to date" in out.lower() else out.splitlines()[0])
+    except subprocess.CalledProcessError as e:
+        out = (e.stderr or e.stdout or "").strip()
+        return False, (out.splitlines()[-1] if out else str(e))
+
+
+def git_pull_all():
+    """Pull the pcmt2 data repo. Returns a short summary."""
+    ok, msg = git_pull(REPO_DIR)
+    return f"{'✅' if ok else '⚠️'} pcmt2 (data): {msg}"
+
+
 FORMATS = {"BO1": 1, "BO3": 3, "BO5": 5}
 
 
