@@ -72,6 +72,8 @@ def build_map(spec, match):
                 "FK": fk, "FD": fd,
                 "PlusMinus2": fk - fd,
             })
+            if p.get("Rounds", rounds) != rounds:  # played only part of the map
+                players[-1]["Rounds"] = p["Rounds"]
         players.sort(key=lambda x: x["R1.0"], reverse=True)
         blocks.append({"team": abbr, "teamName": name, "players": players})
 
@@ -97,18 +99,19 @@ def recompute(match):
         rounds = map_rounds(d)
         for block in d["stats"]:
             for p in block["players"]:
+                played = p.get("Rounds", rounds)
                 a = agg.setdefault(p["Player"], {
                     "rounds": 0, "K": 0, "D": 0, "A": 0, "FK": 0, "FD": 0,
                     "ACS_w": 0, "KAST_w": 0, "ADR_w": 0, "HS_w": 0,
                     "team": block["team"], "teamName": block["teamName"],
                 })
-                a["rounds"] += rounds
+                a["rounds"] += played
                 for key in ("K", "D", "A", "FK", "FD"):
                     a[key] += p[key]
-                a["ACS_w"] += p["ACS"] * rounds
-                a["KAST_w"] += p["KAST"] * rounds
-                a["ADR_w"] += p["ADR"] * rounds
-                a["HS_w"] += p["HS%"] * rounds
+                a["ACS_w"] += p["ACS"] * played
+                a["KAST_w"] += p["KAST"] * played
+                a["ADR_w"] += p["ADR"] * played
+                a["HS_w"] += p["HS%"] * played
 
     combined = {}
     for name, a in agg.items():

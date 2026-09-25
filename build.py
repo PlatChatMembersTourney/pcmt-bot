@@ -179,17 +179,18 @@ def generate_player_stats(event_dir, matches):
                                 "ADR_w": 0, "HS_w": 0,
                             }
                         pd = player_data[name]
+                        played = p.get("Rounds", map_rounds)  # subs may play part of a map
                         pd["maps"] += 1
-                        pd["rounds"] += map_rounds
+                        pd["rounds"] += played
                         pd["K"] += p.get("K", 0)
                         pd["D"] += p.get("D", 0)
                         pd["A"] += p.get("A", 0)
                         pd["FK"] += p.get("FK", 0)
                         pd["FD"] += p.get("FD", 0)
-                        pd["ACS_w"] += p.get("ACS", 0) * map_rounds
-                        pd["KAST_w"] += p.get("KAST", 0) * map_rounds
-                        pd["ADR_w"] += p.get("ADR", 0) * map_rounds
-                        pd["HS_w"] += p.get("HS%", 0) * map_rounds
+                        pd["ACS_w"] += p.get("ACS", 0) * played
+                        pd["KAST_w"] += p.get("KAST", 0) * played
+                        pd["ADR_w"] += p.get("ADR", 0) * played
+                        pd["HS_w"] += p.get("HS%", 0) * played
                         pd["KMAX"] = max(pd["KMAX"], p.get("K", 0))
 
         rows = []

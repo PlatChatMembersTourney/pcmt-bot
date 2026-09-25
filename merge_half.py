@@ -117,7 +117,7 @@ def main():
     if incoming_rounds == 0:
         die("Half score is 0-0; set score1 and score2.")
 
-    added, merged = [], []
+    added, merged, played_by = [], [], {}
     for block in detail["stats"]:
         incoming = {p["Player"]: p for p in half["stats"][block["team"]]}
         by_name = {p["Player"]: p for p in block["players"]}
@@ -127,14 +127,18 @@ def main():
             if name in incoming:
                 theirs = played.get(name, incoming_rounds)
                 by_name[name] = blend([(p, mine), (incoming.pop(name), theirs)])
+                played_by[name] = mine + theirs
                 merged.append(name)
-            elif mine != existing_rounds:  # Played only part of the half already there
-                by_name[name] = blend([(p, mine)])
+            else:
+                played_by[name] = mine
+                if mine != existing_rounds:  # Played only part of the half already there
+                    by_name[name] = blend([(p, mine)])
 
         # Anyone who only played the half being merged in
         for name, p in incoming.items():
             theirs = played.get(name, incoming_rounds)
             by_name[name] = blend([(p, theirs)])
+            played_by[name] = theirs
             added.append(name)
 
         block["players"] = sorted(by_name.values(), key=lambda x: x["R1.0"], reverse=True)
@@ -160,6 +164,14 @@ def main():
         detail["rounds"] = [dict(r, round=n) for n, r in enumerate(incoming_timeline, 1)]
     elif not args.keep_rounds:
         detail["rounds"] = None
+
+    # Record anyone who didn't play the whole map, so the stats don't credit them for it
+    total_rounds = detail["score1"] + detail["score2"]
+    for block in detail["stats"]:
+        for p in block["players"]:
+            p.pop("Rounds", None)
+            if played_by.get(p["Player"], total_rounds) != total_rounds:
+                p["Rounds"] = played_by[p["Player"]]
 
     recompute(match)
     with open(path, "w", encoding="utf-8") as f:
