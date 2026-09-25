@@ -42,7 +42,7 @@ def generate_agent_stats(event_dir, matches):
                         map_agent[map_name][agent] += 1
 
             # atk/def round split, pooled (side belongs to the round winner)
-            for rnd in detail.get("rounds", []):
+            for rnd in detail.get("rounds") or []:  # null when a map has no timeline
                 side = rnd.get("side", "")
                 if side == "atk":
                     map_rounds[map_name]["atk"] += 1

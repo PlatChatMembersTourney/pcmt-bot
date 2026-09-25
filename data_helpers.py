@@ -22,17 +22,6 @@ def _git_note(label, e):
     return f"\n({label} failed: {last})"
 
 
-def git_pull():
-    """Rebase onto origin before a build, so derived files start from the latest data.
-    Best-effort: returns "" on success, or a short note on failure."""
-    try:
-        _git("pull", "--rebase")
-        return ""
-    except subprocess.CalledProcessError as e:
-        _git("rebase", "--abort", check=False)
-        return _git_note("git pull", e)
-
-
 def git_sync(message):
     """Stage src/data, commit, and push to the pcmt2 repo so the site updates.
     Best-effort: returns "" on success / nothing-to-commit, or a short note on

@@ -303,7 +303,7 @@ def generate_team_map_stats(event_dir, matches):
             if s2 > s1:
                 tmd2["won"] += 1
 
-            for rnd in detail.get("rounds", []):
+            for rnd in detail.get("rounds") or []:  # null when a map has no timeline
                 winner = rnd.get("winner")
                 side = rnd.get("side", "")
 
