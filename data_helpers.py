@@ -9,36 +9,51 @@ EVENTS_DIR = os.path.normpath(os.path.join(BASE_DIR, "..", "pcmt2", "src", "data
 REPO_DIR = os.path.normpath(os.path.join(EVENTS_DIR, "..", ".."))
 
 
+def _git(*args, check=True):
+    env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}  # never block on a credential prompt
+    return subprocess.run(["git", "-C", REPO_DIR, *args],
+                          check=check, capture_output=True, text=True, env=env)
+
+
+def _git_note(label, e):
+    out = (e.stderr or e.stdout or "").strip()
+    print(f"{label} failed: {out or e}")
+    last = out.splitlines()[-1] if out else str(e)
+    return f"\n({label} failed: {last})"
+
+
+def git_pull():
+    """Rebase onto origin before a build, so derived files start from the latest data.
+    Best-effort: returns "" on success, or a short note on failure."""
+    try:
+        _git("pull", "--rebase")
+        return ""
+    except subprocess.CalledProcessError as e:
+        _git("rebase", "--abort", check=False)
+        return _git_note("git pull", e)
+
+
 def git_sync(message):
     """Stage src/data, commit, and push to the pcmt2 repo so the site updates.
     Best-effort: returns "" on success / nothing-to-commit, or a short note on
     failure (so callers can surface it without crashing the command)."""
-    env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}  # never block on a credential prompt
-
-    def run(*args, check=True):
-        return subprocess.run(["git", "-C", REPO_DIR, *args],
-                              check=check, capture_output=True, text=True, env=env)
-
     try:
-        run("add", "src/data")
+        _git("add", "src/data")
         # Nothing staged -> nothing to do.
-        if run("diff", "--cached", "--quiet", check=False).returncode == 0:
+        if _git("diff", "--cached", "--quiet", check=False).returncode == 0:
             return ""
-        run("commit", "-m", message)
+        _git("commit", "-m", message)
         # Reconcile with commits pushed from elsewhere before pushing. Abort the
         # rebase on conflict so the repo is never left in a half-rebased state.
         try:
-            run("pull", "--rebase")
+            _git("pull", "--rebase")
         except subprocess.CalledProcessError:
-            run("rebase", "--abort", check=False)
+            _git("rebase", "--abort", check=False)
             raise
-        run("push")
+        _git("push")
         return ""
     except subprocess.CalledProcessError as e:
-        out = (e.stderr or e.stdout or "").strip()
-        print(f"git sync failed: {out or e}")
-        last = out.splitlines()[-1] if out else str(e)
-        return f"\n(git sync failed: {last})"
+        return _git_note("git sync", e)
 
 FORMATS = {"BO1": 1, "BO3": 3, "BO5": 5}
 

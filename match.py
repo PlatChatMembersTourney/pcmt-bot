@@ -270,15 +270,12 @@ def auto_map_players(parsed_maps, color_map, teams, puuid_map):
                 if pu in seen:
                     continue
                 seen[pu] = True
-                if pu in puuid_map:
-                    mapping[pu] = puuid_map[pu]
-                    continue
                 roster = rosters.get(assigned, {})
-                key = normalize(p["riot_name"])
-                if key in roster:
-                    mapping[pu] = roster[key]
-                else:
-                    mapping[pu] = p["riot_name"]
+                known = puuid_map.get(pu)
+                name = known or p["riot_name"]
+                # Roster spelling wins, so casing stays consistent
+                mapping[pu] = roster.get(normalize(name)) or roster.get(normalize(p["riot_name"])) or name
+                if not known and normalize(name) not in roster:
                     unresolved.append(f"{p['riot_name']}#{p['riot_tag']} ({assigned})")
     return mapping, unresolved
 
