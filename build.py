@@ -484,25 +484,33 @@ def generate_standings(event_dir, matches):
     result["Overall"] = compute_standings(completed, list(teams))
 
     if groups:
+        group_names = set(groups)
+
+        def is_group_stage(m):
+            # Blank or any group name = group play (tolerates a mistagged group);
+            # anything else (e.g. "Playoffs") is its own stage.
+            return not m.get("stage") or m.get("stage") in group_names
+
         # Multi-group: one section per group, always listing all its teams.
-        # A completed match counts toward a group only if BOTH teams are in it,
-        # so a mistagged stage still lands in the right group and cross-group
-        # (playoff) matches don't pollute group standings.
+        # A group-stage match counts toward a group only if BOTH teams are in
+        # it, so a mistagged group label still lands in the right group.
+        # Non-group stages (e.g. Playoffs) never count toward a group, even
+        # when both teams come from the same one.
         for g_name in sorted(groups):
             members = groups[g_name]
             mset = set(members)
-            g_matches = [m for m in completed
-                         if m.get("team1") in mset and m.get("team2") in mset]
+            g_matches = [m for m in completed if is_group_stage(m)
+                         and m.get("team1") in mset and m.get("team2") in mset]
             result[g_name] = compute_standings(g_matches, members)
 
-        # Non-group stages (e.g. Playoffs): cross-group completed matches,
+        # Non-group stages (e.g. Playoffs) plus cross-group matches,
         # bucketed by their stage label (participants only).
         other = {}
         for m in completed:
             g1, g2 = group_of(m.get("team1")), group_of(m.get("team2"))
-            if g1 and g1 == g2:
+            if is_group_stage(m) and g1 and g1 == g2:
                 continue  # already counted within its group
-            other.setdefault(m.get("stage", "Unknown"), []).append(m)
+            other.setdefault(m.get("stage") or "Unknown", []).append(m)
         for stage, ms in sorted(other.items()):
             result[stage] = compute_standings(ms, [])
     else:
