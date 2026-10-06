@@ -17,6 +17,7 @@ def generate_agent_stats(event_dir, matches):
 
     # Region-wide per map (top table)
     map_comps = defaultdict(int)                       # map -> number of team-comps run
+    map_recorded = defaultdict(int)                    # map -> team-comps with agents recorded (older games may have none)
     map_agent = defaultdict(lambda: defaultdict(int))  # map -> agent -> comps that included it
     map_rounds = defaultdict(lambda: {"played": 0, "atk": 0, "atk_won": 0, "def": 0, "def_won": 0})
 
@@ -33,13 +34,13 @@ def generate_agent_stats(event_dir, matches):
             for block in detail.get("stats", []):
                 team = block.get("team", "")
                 map_comps[map_name] += 1
-                for p in block.get("players", []):
-                    agent = p.get("Agent", "")
-                    if not agent:
-                        continue
-                    if agent not in map_team_agents[map_name][team]:
-                        map_team_agents[map_name][team].add(agent)
-                        map_agent[map_name][agent] += 1
+                comp = {p.get("Agent") for p in block.get("players", []) if p.get("Agent")}
+                if comp:
+                    map_recorded[map_name] += 1
+                # Every comp counts, so a team playing a map several times counts each time
+                for agent in comp:
+                    map_agent[map_name][agent] += 1
+                    map_team_agents[map_name][team].add(agent)
 
             # atk/def round split, pooled (side belongs to the round winner)
             for rnd in detail.get("rounds") or []:  # null when a map has no timeline
@@ -55,12 +56,13 @@ def generate_agent_stats(event_dir, matches):
 
     result = {}
     for map_name in sorted(map_comps.keys()):
-        comps = map_comps[map_name]
+        # Pick rates are out of the comps that were recorded, so missing data doesn't drag them down
+        recorded = map_recorded[map_name]
         r = map_rounds[map_name]
         agents = [{
             "agent": agent,
             "comps": cnt,
-            "pickPct": round(cnt / comps, 3) if comps else 0,
+            "pickPct": round(cnt / recorded, 3) if recorded else 0,
         } for agent, cnt in map_agent[map_name].items()]
         agents.sort(key=lambda a: a["comps"], reverse=True)
 
@@ -74,6 +76,7 @@ def generate_agent_stats(event_dir, matches):
 
         result[map_name] = {
             "mapsPlayed": r["played"],
+            "recordedComps": recorded,
             "atkPct": round(r["atk_won"] / r["atk"], 3) if r["atk"] else 0,
             "defPct": round(r["def_won"] / r["def"], 3) if r["def"] else 0,
             "agents": agents,
