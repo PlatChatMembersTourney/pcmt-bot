@@ -393,6 +393,12 @@ def generate_team_map_stats(event_dir, matches):
 
 
 def generate_standings(event_dir, matches):
+    # No match files at all (e.g. an event whose matches.json is kept by hand): keep the existing standings.
+    # Unlike the other stats, an event with only upcoming matches still gets 0-0 standings below.
+    if not matches:
+        print("  standings.json: no matches found, skipping")
+        return
+
     teams_path = os.path.join(event_dir, "teams.json")
     teams = {}
     if os.path.exists(teams_path):
