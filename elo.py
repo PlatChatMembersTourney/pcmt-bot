@@ -9,6 +9,8 @@ re-centered so their games-weighted mean is 0:
   mean_offset = sum(games[m] * M[m]) / sum(games[m])   over maps played
   R += mean_offset
   M[m] -= mean_offset                                  for every map played
+
+build.py uses win_chances() to put each upcoming match's series win chance in matches.json.
 """
 import json
 import math
@@ -117,6 +119,31 @@ def compute_elo(matches, history=None):
                     "after": snapshot(elo),
                 })
     return elos
+
+
+def series_chance(p, best_of):
+    """
+    Chance of winning a best-of series when each map is won with chance p - win (best_of + 1) // 2 maps before losing that many.
+    """
+    need = (best_of + 1) // 2
+    return sum(math.comb(need - 1 + lost, lost) * p ** need * (1 - p) ** lost for lost in range(need))
+
+
+def win_chances(matches):
+    """
+    Series win chance for every upcoming match, from the ratings after the completed ones, keyed by match id.
+    The maps aren't known yet, so each map is played at overall rating.
+    """
+    elos = compute_elo([m for m in matches if m.get("completed") and m.get("date")])
+    chances = {}
+    for match in matches:
+        if match.get("completed"):
+            continue
+        team1 = elos.get(match["team1"], new_team())
+        team2 = elos.get(match["team2"], new_team())
+        p = series_chance(win_chance(team1, team2, None), match.get("bestOf", 1))
+        chances[match["id"]] = {"team1": round(p, 3), "team2": round(1 - p, 3)}
+    return chances
 
 
 def print_team(event, abbr, entries):

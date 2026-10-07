@@ -8,6 +8,7 @@ from collections import defaultdict
 
 from data_helpers import EVENTS_DIR as BOT_EVENTS_DIR
 from agents import generate_agent_stats
+from elo import win_chances
 
 # Targets the new Astro site (pcmt2/src/data); EVENTS_DIR follows data_helpers.
 # Layout: <season>/<region>/, individual match files in matches/individual/,
@@ -96,6 +97,12 @@ def combine_matches(region, season):
                 print(f"  WARN: skipping invalid JSON: {os.path.basename(f)}")
 
     matches.sort(key=lambda m: m.get("date", "0000-00-00"), reverse=True)
+
+    # Upcoming matches get their win chance here, never in the individual files - it changes with every result.
+    chances = win_chances(matches)
+    for m in matches:
+        if m["id"] in chances:
+            m["winChance"] = chances[m["id"]]
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w") as fp:
