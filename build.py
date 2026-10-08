@@ -464,9 +464,23 @@ def generate_standings(event_dir, matches):
                 team_stats[t2]["rndW"] += ms2
                 team_stats[t2]["rndL"] += ms1
 
+        # Head-to-head: match wins against the other teams on the same number of wins.
+        h2h = defaultdict(int)
+        for m in match_list:
+            t1, t2 = m.get("team1", ""), m.get("team2", "")
+            if not t1 or not t2 or team_stats[t1]["matchW"] != team_stats[t2]["matchW"]:
+                continue
+            s1, s2 = m.get("score1", 0), m.get("score2", 0)
+            if s1 > s2:
+                h2h[t1] += 1
+            elif s2 > s1:
+                h2h[t2] += 1
+
+        # Record, then head-to-head among the tied teams, then map diff, then round diff.
         rows = list(team_stats.values())
         rows.sort(key=lambda t: (
             t["matchW"],
+            h2h[t["abbr"]],
             t["mapW"] - t["mapL"],
             t["rndW"] - t["rndL"],
         ), reverse=True)
