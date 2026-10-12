@@ -165,6 +165,9 @@ def main():
     elif not args.keep_rounds:
         detail["rounds"] = None
 
+    # Attack/defense splits only covered the old half
+    detail.pop("sides", None)
+
     # Record anyone who didn't play the whole map, so the stats don't credit them for it
     total_rounds = detail["score1"] + detail["score2"]
     for block in detail["stats"]:

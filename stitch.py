@@ -150,7 +150,7 @@ def attack_side_for(source_rounds, idx):
             return 0
         if n < 24:
             return 1
-        return 2 + (n - 24) // 2
+        return 2 + (n - 24)  # Overtime swaps every round
 
     return first_plant_side if half(idx) % 2 == half(first_plant_idx) % 2 else other
 
@@ -175,7 +175,6 @@ def accumulate(rounds):
             a = agg[pu]
             a["rounds"] += 1
             a["score"] += ps.get("score", 0)
-            a["K"] += ps.get("kills", 0)
             a["damage"] += ps.get("damage", 0)
             a["hs"] += ps.get("headshots", 0)
             a["bs"] += ps.get("bodyshots", 0)
@@ -196,12 +195,17 @@ def accumulate(rounds):
         timeline.sort(key=lambda x: x["time"])
 
         killers, deaths, assistants = set(), set(), set()
+        # Same as the scoreboard: teamkills aren't kills, suicides aren't deaths
+        team_of = {ps.get("player_puuid"): ps.get("player_team") for ps in stats}
         for ev in timeline:
             if ev["victim"]:
                 deaths.add(ev["victim"])
-                agg[ev["victim"]]["D"] += 1
+                if ev["victim"] != ev["killer"]:
+                    agg[ev["victim"]]["D"] += 1
             if ev["killer"]:
                 killers.add(ev["killer"])
+                if team_of.get(ev["killer"]) != team_of.get(ev["victim"]):
+                    agg[ev["killer"]]["K"] += 1
             for ap in ev["assists"]:
                 if ap:
                     assistants.add(ap)

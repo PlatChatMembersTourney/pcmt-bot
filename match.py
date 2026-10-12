@@ -11,6 +11,7 @@ from data_helpers import (
     match_file_path, matches_dir, git_sync,
 )
 from build import build_event
+from stitch import accumulate
 
 load_dotenv()
 
@@ -202,9 +203,8 @@ def parse_api_match(data):
     }
 
 
-def build_round_timeline(raw_rounds, t1_color):
-    if not raw_rounds:
-        return []
+# Rounds with a winner, each paired with the color attacking that round
+def rounds_with_attackers(raw_rounds):
     atk_start = None
     for rnd in raw_rounds:
         pe = rnd.get("plant_events")
@@ -213,26 +213,69 @@ def build_round_timeline(raw_rounds, t1_color):
             break
     if not atk_start:
         atk_start = "Red"
+    other = "Blue" if atk_start == "Red" else "Red"
 
-    timeline = []
+    paired = []
     for rnd in raw_rounds:
-        wc = rnd.get("winning_team")
-        if not wc:
+        if not rnd.get("winning_team"):
             continue
-        n = len(timeline) + 1
-        winner = 1 if wc.lower() == t1_color else 2
+        n = len(paired) + 1
         if n <= 12:
             atk = atk_start
         elif n <= 24:
-            atk = "Blue" if atk_start == "Red" else "Red"
-        else:
-            atk = atk_start if ((n - 25) // 2) % 2 == 0 else ("Blue" if atk_start == "Red" else "Red")
+            atk = other
+        else:  # Overtime swaps every round
+            atk = atk_start if (n - 25) % 2 == 0 else other
+        paired.append((rnd, atk))
+    return paired
+
+
+def build_round_timeline(raw_rounds, t1_color):
+    timeline = []
+    for n, (rnd, atk) in enumerate(rounds_with_attackers(raw_rounds), 1):
+        wc = rnd["winning_team"]
+        winner = 1 if wc.lower() == t1_color else 2
         side = "atk" if wc == atk else "def"
         timeline.append({
             "round": n, "winner": winner, "side": side,
             "endType": rnd.get("end_type", ""),
         })
     return timeline
+
+
+# Each team's stat lines over only the rounds it attacked, and only the rounds it defended
+def build_side_stats(api, teams, player_mapping):
+    paired = rounds_with_attackers(api.get("raw_rounds", []))
+    if not paired:
+        return None
+    parsed = {p["puuid"]: p for p in api["red_players"] + api["blue_players"]}
+
+    sides = {"atk": [], "def": []}
+    for color, abbr, name in teams:
+        for side in ("atk", "def"):
+            rounds = [rnd for rnd, atk in paired if (atk.lower() == color) == (side == "atk")]
+            players = []
+            for pu, a in accumulate(rounds).items():
+                p = parsed.get(pu)
+                r = a["rounds"]
+                if not p or p["team_color"].lower() != color or not r:
+                    continue
+                shots = a["hs"] + a["bs"] + a["ls"]
+                kast = round(a["kast"] / r, 3)
+                adr = round(a["damage"] / r, 1)
+                players.append({
+                    "Player": player_mapping.get(pu, p["riot_name"]),
+                    "Agent": p["agent"],
+                    "R1.0": compute_rating(a["K"], a["D"], a["A"], kast, adr, a["FK"], a["FD"], r),
+                    "ACS": round(a["score"] / r),
+                    "K": a["K"], "D": a["D"], "A": a["A"], "PlusMinus": a["K"] - a["D"],
+                    "KAST": kast, "ADR": adr, "HS%": round(a["hs"] / shots, 3) if shots else 0,
+                    "FK": a["FK"], "FD": a["FD"], "PlusMinus2": a["FK"] - a["FD"],
+                    "Rounds": r,
+                })
+            players.sort(key=lambda x: x["R1.0"], reverse=True)
+            sides[side].append({"team": abbr, "teamName": name, "players": players})
+    return sides
 
 
 # Auto-resolution
@@ -302,13 +345,17 @@ def resolve_map(api, t1, t1n, t2, t2n, cmap, player_mapping):
 
     t1b = team_block(api[f"{t1_color}_players"], t1, t1n)
     t2b = team_block(api[f"{t2_color}_players"], t2, t2n)
-    return {
+    detail = {
         "name": api["map_name"],
         "score1": api[f"{t1_color}_score"],
         "score2": api[f"{t2_color}_score"],
         "rounds": rounds,
         "stats": [t1b, t2b],
     }
+    sides = build_side_stats(api, [(t1_color, t1, t1n), (t2_color, t2, t2n)], player_mapping)
+    if sides:
+        detail["sides"] = sides
+    return detail
 
 
 def build_match_json(skeleton, parsed_maps, color_map, player_mapping, veto, stream):
