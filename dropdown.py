@@ -1,13 +1,13 @@
+import asyncio
 import discord
 from datetime import datetime
 
 from data_helpers import (
     FORMATS,
     list_regions, list_seasons, list_stages, load_teams, save_upcoming_match,
-    git_sync,
 )
 from timezone import TZ_OFFSETS, get_user_tz, set_user_tz, local_to_utc_iso
-from build import build_event
+from build import build_and_sync
 
 
 # ---- dropdown components ----
@@ -118,22 +118,21 @@ class DateModal(discord.ui.Modal, title="Match date & time"):
 
         date_iso = local_to_utc_iso(d, t, v.tz)
 
+        v.stop()
+        await interaction.response.edit_message(content="Saving…", view=None)
+
         teams = load_teams(v.region, v.season)
         match = save_upcoming_match(
             v.region, v.season, v.team1, v.team2, v.stage, FORMATS[v.fmt], date_iso, teams,
         )
 
-        # Regenerate matches.json (and stats) so the new game shows up.
-        build_note = ""
-        try:
-            build_event(v.region, v.season)
-        except Exception as e:
-            build_note = f"\n(build failed: {e})"
-            print(f"build failed for {v.region}/{v.season}: {e}")
-        build_note += git_sync(f"bot: add upcoming {match['id']} ({v.region}/{v.season})")
+        # Rebuild off the event loop
+        loop = asyncio.get_running_loop()
+        build_note = await loop.run_in_executor(
+            None, build_and_sync, v.region, v.season,
+            f"bot: add upcoming {match['id']} ({v.region}/{v.season})")
 
-        v.stop()
-        await interaction.response.edit_message(content="Upcoming game created ✅", view=None)
+        await interaction.edit_original_response(content="Upcoming game created ✅")
         await interaction.channel.send(
             f"Upcoming game created.\n"
             f"**{match['team1Name']}** vs **{match['team2Name']}**\n"

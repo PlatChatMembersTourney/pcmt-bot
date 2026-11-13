@@ -1,11 +1,12 @@
+import asyncio
 import os
 
 import discord
 
 from data_helpers import (
-    list_regions, list_seasons, load_matches, match_file_path, git_sync,
+    list_regions, list_seasons, load_matches, match_file_path,
 )
-from build import build_event
+from build import build_and_sync
 
 
 class RegionSelect(discord.ui.Select):
@@ -64,16 +65,16 @@ class ConfirmDeleteButton(discord.ui.Button):
                 content=f"Already gone: no file for `{m['id']}`.", view=None)
             return
 
-        build_note = ""
-        try:
-            build_event(v.region, v.season)
-        except Exception as e:
-            build_note = f"\n(build failed: {e})"
-            print(f"build failed for {v.region}/{v.season}: {e}")
-        build_note += git_sync(f"bot: delete {m['id']} ({v.region}/{v.season})")
-
         v.stop()
-        await interaction.response.edit_message(content="Match deleted ✅", view=None)
+        await interaction.response.edit_message(content="Deleting…", view=None)
+
+        # Rebuild off the event loop
+        loop = asyncio.get_running_loop()
+        build_note = await loop.run_in_executor(
+            None, build_and_sync, v.region, v.season,
+            f"bot: delete {m['id']} ({v.region}/{v.season})")
+
+        await interaction.edit_original_response(content="Match deleted ✅")
         await interaction.channel.send(
             f"Deleted **{m['team1Name']} vs {m['team2Name']}**\n"
             f"{m.get('stage', '')} | id `{m['id']}`"

@@ -1,3 +1,4 @@
+import asyncio
 import json
 import os
 import re
@@ -8,9 +9,9 @@ from dotenv import load_dotenv
 
 from data_helpers import (
     BASE_DIR, list_regions, list_seasons, load_teams, load_matches,
-    match_file_path, matches_dir, git_sync,
+    match_file_path, matches_dir,
 )
-from build import build_event
+from build import build_and_sync
 from stitch import accumulate
 
 load_dotenv()
@@ -505,6 +506,7 @@ class LinksModal(discord.ui.Modal, title="Tracker links"):
             await interaction.followup.send("No links found.", ephemeral=True)
             return
 
+        loop = asyncio.get_running_loop()
         parsed_maps = []
         for i, url in enumerate(urls):
             mid = extract_match_id(url)
@@ -512,7 +514,8 @@ class LinksModal(discord.ui.Modal, title="Tracker links"):
                 await interaction.followup.send(f"Map {i+1}: couldn't find a match id in that URL.", ephemeral=True)
                 return
             try:
-                parsed_maps.append(parse_api_match(fetch_match(mid, api_key)))
+                data = await loop.run_in_executor(None, fetch_match, mid, api_key)
+                parsed_maps.append(parse_api_match(data))
             except Exception as e:
                 await interaction.followup.send(f"Map {i+1}: {e}", ephemeral=True)
                 return
@@ -540,13 +543,10 @@ class LinksModal(discord.ui.Modal, title="Tracker links"):
                 puuid_map[pu] = name
         save_puuid_map(puuid_map)
 
-        build_note = ""
-        try:
-            build_event(v.region, v.season)
-        except Exception as e:
-            build_note = f"\nBuild failed: {e}"
-            print(f"build failed for {v.region}/{v.season}: {e}")
-        build_note += git_sync(f"bot: add match {match['id']} ({v.region}/{v.season})")
+        # Rebuild off the event loop
+        build_note = await loop.run_in_executor(
+            None, build_and_sync, v.region, v.season,
+            f"bot: add match {match['id']} ({v.region}/{v.season})")
 
         lines = [
             f"Saved **{match['team1Name']} {match['score1']} - {match['score2']} {match['team2Name']}**",

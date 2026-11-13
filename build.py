@@ -6,7 +6,7 @@ import sys
 import glob
 from collections import defaultdict
 
-from data_helpers import EVENTS_DIR as BOT_EVENTS_DIR
+from data_helpers import EVENTS_DIR as BOT_EVENTS_DIR, git_sync
 from agents import generate_agent_stats
 from elo import win_chances
 
@@ -566,6 +566,17 @@ def build_event(region, season):
     generate_standings(sd, matches)
     generate_agent_stats(sd, matches)
     return matches
+
+
+# Rebuild + push, returns a note for Discord
+def build_and_sync(region, season, message):
+    note = ""
+    try:
+        build_event(region, season)
+    except Exception as e:
+        note = f"\n(build failed: {e})"
+        print(f"build failed for {region}/{season}: {e}")
+    return note + git_sync(message)
 
 
 def main():
